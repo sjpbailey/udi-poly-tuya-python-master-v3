@@ -1,0 +1,39 @@
+{
+	"name": "TUYALED",
+	"docs": "https://github.com/sjpbailey/udi-poly-tuya-python-master-v3/blob/master/README.md",
+	"type": "python3",
+	"executable": "TUYALED.py",
+	"install": "install.sh",
+	"description": "Tuya Lights and switches by TreatLife",
+	"notice": "Please follow all codes & safety precautions for mechanical equipment",
+	"shortPoll": "600",
+	"longPoll": "6600",
+	"testMode": false,
+	"logLevel": "INFO",
+	"profile_version": "3.0.1",
+	"customParams": {
+		"apiKey": "txejpdfda9iwmn5cg2es",
+		"apiSecret": "46d6072ffd724e0ba5ebeb5cc6b9dce9",
+		"apiDeviceId": "017743508caab5f0973e",
+		"apiRegion": "us"
+	},
+	"credits": [
+		{
+			"title": "Tuya TreatLife LED Bulbs and Switches",
+			"author": "Steve Bailey (sjpbailey)",
+			"version": "3.0.1",
+			"date": "August 14, 2020",
+			"source": "https://github.com/sjpbailey/udi-poly-tuya-python-master-v3",
+			"license": "https://github.com/sjpbailey/udi-poly-tuya-python-master-v3/LICENSE"
+		}
+	],
+	"store": {
+		"developer": "sjpbailey1961@gmail.com",
+		"purchaseOptions": [
+			{
+				"isPerpetual": true,
+				"price": 0
+			}
+		]
+	}
+}

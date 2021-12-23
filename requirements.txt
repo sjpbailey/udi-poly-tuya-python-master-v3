@@ -1,0 +1,5 @@
+udi_interface>=3.0.11
+requests>=2.26.0
+tinytuya>=1.2.6
+pandas==1.3.4
+

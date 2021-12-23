@@ -1,0 +1,9 @@
+logger==1.4
+numpy>=1.21.2
+pandas>=1.3.3
+pgc-interface==1.1.9
+polyinterface==2.1.0
+requests==2.26.0
+tinytuya==1.2.6
+udi_interface>=3.0.15
+
