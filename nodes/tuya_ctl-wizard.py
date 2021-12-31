@@ -77,7 +77,8 @@ class Controller(udi_interface.Node):
             self.apiKey = default_apiKey
             LOGGER.error('check_params: apiKey not defined in customParams, please add it.  Using {}'.format(
                 default_apiKey))
-            self.eapiKey = default_apiKeyself.apiKey = self.Parameters.apiKey
+            self.apiKey = default_apiKey
+            self.apiKey = self.Parameters.apiKey
 
         self.apiSecret = self.Parameters.apiSecret
         if self.apiSecret is None:
@@ -150,7 +151,7 @@ class Controller(udi_interface.Node):
 
     def wizard(self, REGION, KEY, SECRET, uri, token, command):  # color=True
         tuyaPlatform = None
-        # CONFIGFILE = 'tinytuya.json'
+        CONFIGFILE = 'tinytuya.json'
         # SNAPSHOTFILE = 'snapshot.json'
         config = {}
         config['apiKey'] = self.apiKey  # "txejpdfda9iwmn5cg2es"
@@ -330,7 +331,7 @@ class Controller(udi_interface.Node):
 if __name__ == '__main__':
     try:
         pass
-        wizard()  # wizard()
+        #wizard()  # wizard()
         # except KeyboardInterrupt:
         pass
     except (KeyboardInterrupt, SystemExit):

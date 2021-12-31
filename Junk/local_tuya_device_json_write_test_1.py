@@ -53,7 +53,7 @@ for device in device_list:
         ip = row['ip']
         key = row['key']
         ver = row['ver']
-        address = row['type'] + '_%s' % (idx+1)
+        address = '%s' % (idx)  # row['type'] + '_
         print('{name}\n{id_new}\n{ip}\n{key}\n{ver}\n{address}\n'.format(
             name=name, id_new=id_new, ip=ip, key=key, ver=ver, address=address,))
 device_list = [switches]

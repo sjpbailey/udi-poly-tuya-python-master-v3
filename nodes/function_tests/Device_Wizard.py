@@ -53,7 +53,7 @@ def tuyaPlatform(apiRegion, apiKey, apiSecret, uri, token=None):
 
 
 def wizard():  # color=True
-    # CONFIGFILE = 'tinytuya.json'
+    CONFIGFILE = 'tinytuya.json'
     SNAPSHOTFILE = 'snapshot.json'
     config = {}
     config['apiKey'] = "txejpdfda9iwmn5cg2es"
