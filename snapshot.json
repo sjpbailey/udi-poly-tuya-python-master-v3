@@ -1,5 +1,5 @@
 {
-    "timestamp": 1643090450.571224,
+    "timestamp": 1644365062.895256,
     "devices": [
         {
             "name": "Under Cabinets",
@@ -19,7 +19,7 @@
         },
         {
             "name": "Switch Family Room Sconces",
-            "ip": "192.168.1.150",
+            "ip": "192.168.1.146",
             "ver": "3.3",
             "id": "017743508caab5f385a7",
             "key": "7b8f2415ac96dfea",
@@ -33,7 +33,7 @@
         },
         {
             "name": "Switch Office Outside Lights",
-            "ip": "192.168.1.149",
+            "ip": "192.168.1.145",
             "ver": "3.3",
             "id": "017743508caab5f0973e",
             "key": "e779c96c964f71b2",
@@ -47,7 +47,7 @@
         },
         {
             "name": "Garage",
-            "ip": "192.168.1.154",
+            "ip": "192.168.1.148",
             "ver": "3.3",
             "id": "ebfd4f4263bb769d99zjkq",
             "key": "ec0b2b581a246eab",
@@ -65,7 +65,7 @@
         },
         {
             "name": "Office Light",
-            "ip": "192.168.1.153",
+            "ip": "192.168.1.147",
             "ver": "3.3",
             "id": "ebfc16d57ed374932cjqfk",
             "key": "805217605357161b",
