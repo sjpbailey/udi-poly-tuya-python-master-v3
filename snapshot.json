@@ -1,21 +1,12 @@
 {
-    "timestamp": 1644365062.895256,
+    "timestamp": 1644383500.658433,
     "devices": [
         {
             "name": "Under Cabinets",
             "ip": "192.168.1.155",
             "ver": "3.3",
             "id": "ebe097c0407da32084kvtr",
-            "key": "cb02297ceb692149",
-            "devId": {
-                "dps": {
-                    "20": false,
-                    "21": "scene",
-                    "24": "007803e8000a",
-                    "25": "010e0d000084000003e800000000",
-                    "26": 0
-                }
-            }
+            "key": "cb02297ceb692149"
         },
         {
             "name": "Switch Family Room Sconces",
