@@ -1,15 +1,21 @@
-
+import time
 import requests
 from requests.auth import HTTPBasicAuth
 import xml.etree.ElementTree as ET
 from enum import Enum
-
 import requests
+import time
+from datetime import datetime, timezone 
+
+print(str(datetime.now().timestamp()))
+
+utime = str(datetime.now(tz=timezone.utc).timestamp() * 1000)   #datetime.strftime(datetime.now(), "%s")
+print(utime)
 
 headers = {
     'sign_method': 'HMAC-SHA256',
     'client_id': 'txejpdfda9iwmn5cg2es',
-    't': '1633498170674',
+    't': utime,
     'mode': 'cors',
     'Content-Type': 'application/json',
     'sign': '320BE35DE30BDD60C5E21295C4C50210E40FA6AEA75A605395AC39DD1727F855',
@@ -25,7 +31,7 @@ payload={}
 headers = {
     'client_id': 'txejpdfda9iwmn5cg2es',
     'sign': '8D0152E2B32BF529048C4ED6CFE34F547E9B83E6BB312B15B1B7B84516DB0901',
-    't': '1633496660037',
+    't': utime,
     'sign_method': 'HMAC-SHA256'
 }
 

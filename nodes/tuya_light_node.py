@@ -56,7 +56,7 @@ class LightNode(udi_interface.Node):
         DEVICEIP = self.DEVICEIP
         DEVICEKEY = self.DEVICEKEY
         DEVICEVERS = self.DEVICEVERS
-        DDEVICEID = os.getenv("DEVICEID", DEVICEID)
+        DEVICEID = os.getenv("DEVICEID", DEVICEID)
         DEVICEIP = os.getenv("DEVICEIP", DEVICEIP)
         DEVICEKEY = os.getenv("DEVICEKEY", DEVICEKEY)
         DEVICEVERS = os.getenv("DEVICEVERS", DEVICEVERS)
@@ -75,7 +75,7 @@ class LightNode(udi_interface.Node):
         DEVICEIP = self.DEVICEIP
         DEVICEKEY = self.DEVICEKEY
         DEVICEVERS = self.DEVICEVERS
-        DDEVICEID = os.getenv("DEVICEID", DEVICEID)
+        DEVICEID = os.getenv("DEVICEID", DEVICEID)
         DEVICEIP = os.getenv("DEVICEIP", DEVICEIP)
         DEVICEKEY = os.getenv("DEVICEKEY", DEVICEKEY)
         DEVICEVERS = os.getenv("DEVICEVERS", DEVICEVERS)
@@ -162,7 +162,7 @@ class LightNode(udi_interface.Node):
         DEVICEIP = self.DEVICEIP
         DEVICEKEY = self.DEVICEKEY
         DEVICEVERS = self.DEVICEVERS
-        DDEVICEID = os.getenv("DEVICEID", DEVICEID)
+        DEVICEID = os.getenv("DEVICEID", DEVICEID)
         DEVICEIP = os.getenv("DEVICEIP", DEVICEIP)
         DEVICEKEY = os.getenv("DEVICEKEY", DEVICEKEY)
         DEVICEVERS = os.getenv("DEVICEVERS", DEVICEVERS)

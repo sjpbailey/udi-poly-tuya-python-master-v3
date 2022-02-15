@@ -3,8 +3,8 @@ Polyglot v3 node server
 Copyright (C) 2021 Steven Bailey / Jason Cox
 MIT License
 """
-# For gathering json tinytuya and snapshot by running Wizard within the controller
-import udi_interface
+# For gathering json tinytuya and snapshot by running Wizard as a seperate file
+# Cannot write json to file or memory (evedently do not know how
 import udi_interface
 import sys
 import time
@@ -20,6 +20,7 @@ import pandas as pd
 import numpy as np
 import json
 import asyncio
+
 
 from nodes import tuya_switch_node
 from nodes import tuya_light_node
@@ -77,8 +78,7 @@ class Controller(udi_interface.Node):
             self.apiKey = default_apiKey
             LOGGER.error('check_params: apiKey not defined in customParams, please add it.  Using {}'.format(
                 default_apiKey))
-            self.apiKey = default_apiKey
-            self.apiKey = self.Parameters.apiKey
+            self.eapiKey = default_apiKey.apiKey = self.Parameters.apiKey
 
         self.apiSecret = self.Parameters.apiSecret
         if self.apiSecret is None:
@@ -106,173 +106,51 @@ class Controller(udi_interface.Node):
         self.poly.updateProfile()
         self.wait_for_node_done()
         #### Write Creditials ####
-        self.wizard(self, self.apiKey, self.apiSecret,
-                    'uri', 'token', 'command')
+        # self.putCred(self)
+        # time.sleep(5)
+        # os.system("tuya_device_import.py")
+        # exec(open("tuya_device_import.py").read())
+        LOGGER.info("Gathering Devices Please be Patient")
+        time.sleep(15)
+        self.LightSwitch(self)
 
-    def tuyaPlatform(self, apiRegion, apiKey, apiSecret, uri, token=None):
-        url = "https://openapi.tuya%s.com/v1.0/%s" % (apiRegion, uri)
-        now = int(time.time()*1000)
-        if(token == None):
-            payload = apiKey + str(now)
-        else:
-            payload = apiKey + token + str(now)
-        LOGGER.info("API Key ", apiKey)
-        LOGGER.info("Token ", payload)
-        # print()
-
-        # Sign Payload
-        signature = hmac.new(
-            apiSecret.encode('utf-8'),
-            msg=payload.encode('utf-8'),
-            digestmod=hashlib.sha256
-        ).hexdigest().upper()
-
-        # Create Header Data
-        headers = {}
-        headers['client_id'] = apiKey
-        headers['sign_method'] = 'HMAC-SHA256'
-        headers['t'] = str(now)
-        headers['sign'] = signature
-        if(token != None):
-            headers['access_token'] = token
-
-        # Get Token
-        response = requests.get(url, headers=headers)
-        # print("remote response",  response)
-        try:
-            response_dict = json.loads(response.content.decode())
-        except:
-            try:
-                response_dict = json.loads(response.content)
-                print(response_dict)
-            except:
-                print("Failed to get valid JSON response")
-        return(response_dict)
-
-    def wizard(self, REGION, KEY, SECRET, uri, token, command):  # color=True
-        tuyaPlatform = None
+# Add json data for Device Install
+    """def putCred(self, command=None):
+        ##### write config settings for Wizard to 'tinytuya.json' ####
         CONFIGFILE = 'tinytuya.json'
-        # SNAPSHOTFILE = 'snapshot.json'
+        LOGGER.info('')
         config = {}
-        config['apiKey'] = self.apiKey  # "txejpdfda9iwmn5cg2es"
-        # "46d6072ffd724e0ba5ebeb5cc6b9dce9"
+        config['apiKey'] = self.apiKey
         config['apiSecret'] = self.apiSecret
-        config['apiRegion'] = self.apiRegion  # 'us'
-        config['apiDeviceID'] = self.apiDeviceId  # "017743508caab5f0973e"
-        needconfigs = True
-        try:
-            # Load defaults
-            with open(CONFIGFILE) as f:
-                config = json.load(f)
-        except:
-            # First Time Setup
-            pass
+        config['apiDeviceID'] = self.apiDeviceId
+        config['apiRegion'] = self.apiRegion
+#### Write Credintils to tinytuya.json
+        json_object = json.dumps(config, indent=4)
+        with open(CONFIGFILE, "w") as data_file:
+            data_file.write(json_object)
+            LOGGER.info(">> Configuration Data Saved to " + CONFIGFILE)
+            LOGGER.info(json_object)
+        os.system("tuya_device_import.py")
+#### Start tuya_device_import.py to produce snapshot.json
+        exec(open("tuya_device_import.py").read())
+        LOGGER.info("Gathering Devices Please be Patient")"""
 
-        # print('')
-        LOGGER.info('TreatLife Device Discovery')
-        # print('')
-        # print('Authentication' + ' [%s]' % (tinytuya.version))
+#### Read Devices from snapshot.json produced by tuya_device_import  ####
+#### Adds Nodes Lights and Switches for now ####
+    def LightSwitch(self, command):
+        # delete any existing nodes
+        nodes = self.poly.getNodes()
+        for node in nodes:
+            if node != 'controller':   # but not the controller node
+                self.poly.delNode(node)
 
-        if(config['apiKey'] != '' and config['apiSecret'] != '' and
-                config['apiRegion'] != '' and config['apiDeviceID'] != ''):
-            needconfigs = False
-            answer = 'Y'  # input(subbold + '    Use existing credentials ' +
-            #     normal + '(Y/n): ')
-            if('Y'[0:1].lower() == 'n'):
-                needconfigs = True
-
-        KEY = config['apiKey']
-        SECRET = config['apiSecret']
-        DEVICEID = config['apiDeviceID']
-        REGION = config['apiRegion']        # us, eu, cn, in
-        LANG = 'us'                         # en or zh
-
-        # Get Oauth Token from tuyaPlatform
-        uri = 'token?grant_type=1'
-        response_dict = tuyaPlatform(REGION, KEY, SECRET, uri)
-        self.token = response_dict['result']['access_token']
-
-        # Get UID from sample Device ID
-        uri = 'devices/%s' % DEVICEID
-        response_dict = tuyaPlatform(REGION, KEY, SECRET, uri, token)
-        uid = response_dict['result']['uid']
-
-        # Use UID to get list of all Devices for User
-        uri = 'users/%s/devices' % uid
-        json_data = tuyaPlatform(REGION, KEY, SECRET, uri, token)
-        # print("Full json above", json_data)
-
-        # Filter to only Name, ID and Key
-        tuyadevices = []
-        for i in json_data['result']:
-            item = {}
-            item['name'] = i['name'].strip()
-            item['id'] = i['id']
-            item['key'] = i['local_key']
-            item['ip'] = i['ip']
-            tuyadevices.append(item)
-
-        if('Y'[0:1].lower() != 'n'):
-            devices = tinytuya.deviceScan(False, 20)  # changed 20 to 1
-
-            def getIP(d, gwid):
-                for ip in d:
-                    if (gwid == d[ip]['gwId']):
-                        return (ip, d[ip]['version'])
-                return (0, 0)
-            polling = []
-            # print("Polling TreatLife Switch Devices...\n")
-
-            for i in tuyadevices:
-                item = {}
-                name = i['name']
-                (ip, ver) = getIP(devices, i['id'])  # 'id'
-                item['name'] = name
-                item['ip'] = ip
-                item['ver'] = ver
-                item['id'] = i['id']
-                item['key'] = i['key']
-                if (ip == 0):
-                    pass
-                else:
-                    try:
-                        d = tinytuya.OutletDevice(i['id'], ip, i['key'])
-                        if ver == "3.3":
-                            d.set_version(3.3)
-                        data = d.status()
-                        if 'dps' in data:
-                            item['devId'] = data
-                            # state = alertdim + "Off" + dim
-                            try:
-                                if '20' in data['dps'] or '20' in data['devId']:
-                                    pass
-                                if '1' in data['dps']:
-                                    pass
-                                else:
-                                    pass
-                            except:
-                                pass
-                        else:
-                            pass
-                    except:
-                        pass
-                polling.append(item)
-                pass
-            # Save polling data snapsot
-            current = {'timestamp': time.time(), 'devices': polling}
-            output = json.dumps(current, indent=4)
-
-        #### Adds Nodes Lights and Switches for now ####
-        output = None
-        jsonData = json.loads(output)
+        f = open('snapshot.json',)
+        jsonData = json.load(f)
         df = pd.json_normalize(jsonData['devices'])
         df = df.fillna(-1)
         df['type'] = None
-
-        df['type'] = np.where(
-            df['devId.dps.20'] != -1, 'light', df['type'])
-        df['type'] = np.where(
-            df['devId.dps.1'] != -1, 'switch', df['type'])
+        df['type'] = np.where(df['devId.dps.20'] != -1, 'light', df['type'])
+        df['type'] = np.where(df['devId.dps.1'] != -1, 'switch', df['type'])
 
         lights = df[df['type'] == 'light'].reset_index(drop=True)
         switches = df[df['type'] == 'switch'].reset_index(drop=True)
@@ -286,6 +164,7 @@ class Controller(udi_interface.Node):
                 ip = row['ip']
                 key = row['key']
                 ver = row['ver']
+                #id_new = id
                 address = row['type'] + '_%s' % (idx+1)
                 LOGGER.info('{name}\n{id_new}\n{ip}\n{key}\n{ver}\n{address}\n'.format(
                     name=name, id_new=id_new, ip=ip, key=key, ver=ver, address=address,))
@@ -310,6 +189,7 @@ class Controller(udi_interface.Node):
                     self.poly, self.address, address, name, id_new, ip, key)
                 self.poly.addNode(node)
                 self.wait_for_node_done()
+        f.close()
 
     def delete(self):
         LOGGER.info('Delete Tuya Controller.')
@@ -326,13 +206,3 @@ class Controller(udi_interface.Node):
         LOGGER.info('Discover not implemented')
 
     commands = {'DISCOVER': noop}
-
-
-"""if __name__ == '__main__':
-    try:
-        pass
-        #wizard()  # wizard()
-        # except KeyboardInterrupt:
-        pass
-    except (KeyboardInterrupt, SystemExit):
-        sys.exit(0)"""
