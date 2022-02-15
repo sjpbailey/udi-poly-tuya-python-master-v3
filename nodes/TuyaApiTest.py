@@ -25,15 +25,21 @@ DEVICE_ID1 ="ebfc16d57ed374932cjqfk"
 #response = openapi.get("/v1.0/iot-03/devices/{}/functions".format(DEVICE_ID1))
 
 # Send commands
-commands1 = {'commands': [{'code': 'switch_led', 'value': True}]}
-commands1 = {'commands': [{'code': 'bright_value_v2', 'value': 20}]}
+#commands1 = {'commands': [{'code': 'switch_led', 'value': False}]}
+#commands1 = {'commands': [{'code': 'bright_value_v2', 'value': 10}]} # Brightness 10-1000
+#commands1 = {'commands': [{'code': 'temp_value_v2', 'value': 255}]} # Temp 0-1000
+#commands1 = {'commands': [{'code': 'work_mode', 'value': 'colour'}]} # MODE "{\"range\":[\"white\",\"colour\",\"scene\",\"music\"]}"
+commands1 = {'commands': [{'code': 'colour_data_v2', 'value': "{\"h\":0,\"s\":0,\"v\":1000}"}]} # color
+
+
+
 
 openapi.post('/v1.0/iot-03/devices/{}/commands'.format(DEVICE_ID1), commands1)
 
 # Get the status of a single device
-#response = openapi.get("/v1.0/iot-03/devices/{}/status".format(DEVICE_ID1))
+response = openapi.get("/v1.0/iot-03/devices/{}/status".format(DEVICE_ID1))
 
-DEVICE_ID2 = "017743508caab5f0973e" #"017743508caab5f385a7" "017743508caab5f0973e"
+#DEVICE_ID2 = "017743508caab5f0973e" #"017743508caab5f385a7" "017743508caab5f0973e"
 
 # Call APIs from Tuya
 # Get the device information
@@ -43,10 +49,10 @@ DEVICE_ID2 = "017743508caab5f0973e" #"017743508caab5f385a7" "017743508caab5f0973
 #response = openapi.get("/v1.0/iot-03/devices/{}/functions".format(DEVICE_ID2))
 
 # Send commands
-commands2 = {'commands': [{'code': 'switch_1', 'value': False}]}
+#commands2 = {'commands': [{'code': 'switch_1', 'value': False}]}
 
 
-openapi.post('/v1.0/iot-03/devices/{}/commands'.format(DEVICE_ID2), commands2)
+#openapi.post('/v1.0/iot-03/devices/{}/commands'.format(DEVICE_ID2), commands2)
 
 # Get the status of a single device
-response = openapi.get("/v1.0/iot-03/devices/{}/status".format(DEVICE_ID2))
+#response = openapi.get("/v1.0/iot-03/devices/{}/status".format(DEVICE_ID2))
