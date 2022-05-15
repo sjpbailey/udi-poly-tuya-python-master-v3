@@ -77,7 +77,7 @@ class SwitchNode(udi_interface.Node):
         d = tinytuya.OutletDevice(DEVICEID, DEVICEIP, DEVICEKEY)
         d.set_version(3.3)
         stat = d.status()
-        LOGGER.info('Current Status of Switch: %r' % stat['dps']['1'])
+        #LOGGER.info('Current Status of Switch: %r' % stat['dps']['1'])
         if stat['dps']['1'] == True:
             self.setDriver('GV2', 1)
         elif stat['dps']['1'] == False:
