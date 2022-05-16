@@ -1,19 +1,33 @@
 {
-    "timestamp": 1652728272.1681159,
+    "timestamp": 1652728832.710887,
     "devices": [
         {
             "name": "Switch Office Outside Lights",
-            "ip": 0,
-            "ver": 0,
+            "ip": "192.168.1.145",
+            "ver": "3.3",
             "id": "017743508caab5f0973e",
-            "key": "e779c96c964f71b2"
+            "key": "e779c96c964f71b2",
+            "devId": {
+                "devId": "017743508caab5f0973e",
+                "dps": {
+                    "1": false,
+                    "9": 0
+                }
+            }
         },
         {
             "name": "Switch Family Room Sconces",
-            "ip": 0,
-            "ver": 0,
+            "ip": "192.168.1.146",
+            "ver": "3.3",
             "id": "017743508caab5f385a7",
-            "key": "9f5e92e29a695333"
+            "key": "9f5e92e29a695333",
+            "devId": {
+                "devId": "017743508caab5f385a7",
+                "dps": {
+                    "1": false,
+                    "9": 0
+                }
+            }
         },
         {
             "name": "Garage",
