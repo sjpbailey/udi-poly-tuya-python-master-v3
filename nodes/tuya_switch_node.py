@@ -78,9 +78,9 @@ class SwitchNode(udi_interface.Node):
         d.set_version(3.3)
         stat = d.status()
         #LOGGER.info('Current Status of Switch: %r' % stat['dps']['1'])
-        if stat['dps']['1'] == True:
+        if stat == True:
             self.setDriver('GV2', 1)
-        elif stat['dps']['1'] == False:
+        elif stat == False:
             self.setDriver('GV2', 0)
 
     def poll(self, polltype):
