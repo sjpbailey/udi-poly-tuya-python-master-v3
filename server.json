@@ -10,7 +10,7 @@
 	"longPoll": "6600",
 	"testMode": false,
 	"logLevel": "INFO",
-	"profile_version": "3.0.1",
+	"profile_version": "3.0.2",
 	"customParams": {
 		"apiKey": "txejpdfda9iwmn5cg2es",
 		"apiSecret": "46d6072ffd724e0ba5ebeb5cc6b9dce9",
@@ -21,7 +21,7 @@
 		{
 			"title": "Tuya TreatLife LED Bulbs and Switches",
 			"author": "Steve Bailey (sjpbailey)",
-			"version": "3.0.1",
+			"version": "3.0.2",
 			"date": "August 14, 2020",
 			"source": "https://github.com/sjpbailey/udi-poly-tuya-python-master-v3",
 			"license": "https://github.com/sjpbailey/udi-poly-tuya-python-master-v3/LICENSE"
