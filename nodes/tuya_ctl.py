@@ -112,7 +112,36 @@ class Controller(udi_interface.Node):
         # exec(open("tuya_device_import.py").read())
         LOGGER.info("Gathering Devices Please be Patient")
         time.sleep(15)
-        self.LightSwitch(self)
+        self.discover.self
+
+    # added to test from James
+    def discover(self, *args, **kwargs):
+        LOGGER.info("Starting Tuya Device Discovery")
+        devices_list = json.loads(self.Parameters['devices'])
+
+        LOGGER.info(json.dumps(devices_list))
+        scan_results = tinytuya.deviceScan()
+
+        for value in scan_results.values():
+            ip = value['ip']
+            device_id = value['gwId']
+            if len(device_id) > 10:
+                device_id = device_id[:10]
+
+            LOGGER.info(f"Device Scan Device IP: {ip}")
+            for dict_found in [x for x in devices_list if x["id"] == value['gwId']]:
+                value['name'] = dict_found['name']
+                value['key'] = dict_found['key']
+                device_node = self.poly.getNode(device_id)
+                if device_node is None:
+                    LOGGER.info(
+                        f"Adding Node: {device_id} - {dict_found['name']}")
+                    #self.poly.addNode(TuyaNode(self.poly, self.address, device_id, dict_found['name'], value))
+                    self.wait_for_node_event()
+
+        LOGGER.info('Finished Tuya Device Discovery')
+
+        # self.LightSwitch(self)
 
 # Add json data for Device Install
     """def putCred(self, command=None):
