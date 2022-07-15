@@ -112,10 +112,11 @@ class Controller(udi_interface.Node):
         # exec(open("tuya_device_import.py").read())
         LOGGER.info("Gathering Devices Please be Patient")
         time.sleep(15)
-        self.discover(self)
+        # self.discover(self)
+        self.LightSwitch(self)
 
     # added to test from James
-    def discover(self, *args, **kwargs):
+    """def discover(self, *args, **kwargs):
         LOGGER.info("Starting Tuya Device Discovery")
         devices_list = json.loads(self.Parameters['devices'])
 
@@ -139,9 +140,8 @@ class Controller(udi_interface.Node):
                     #self.poly.addNode(TuyaNode(self.poly, self.address, device_id, dict_found['name'], value))
                     self.wait_for_node_event()
 
-        LOGGER.info('Finished Tuya Device Discovery')
+        LOGGER.info('Finished Tuya Device Discovery')"""
 
-        # self.LightSwitch(self)
 
 # Add json data for Device Install
     """def putCred(self, command=None):
