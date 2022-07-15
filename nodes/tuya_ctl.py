@@ -172,7 +172,7 @@ class Controller(udi_interface.Node):
         for node in nodes:
             if node != 'controller':   # but not the controller node
                 self.poly.delNode(node)
-
+# needs to be a grab from the internal ip network for local addresses
         f = open('snapshot.json',)
         jsonData = json.load(f)
         df = pd.json_normalize(jsonData['devices'])
