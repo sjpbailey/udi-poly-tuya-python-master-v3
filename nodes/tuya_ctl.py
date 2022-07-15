@@ -112,7 +112,7 @@ class Controller(udi_interface.Node):
         # exec(open("tuya_device_import.py").read())
         LOGGER.info("Gathering Devices Please be Patient")
         time.sleep(15)
-        self.discover.self
+        self.discover(self)
 
     # added to test from James
     def discover(self, *args, **kwargs):
