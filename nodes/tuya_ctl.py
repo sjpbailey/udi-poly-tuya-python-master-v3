@@ -10,9 +10,9 @@ LOGGER = udi_interface.LOGGER
 Custom = udi_interface.Custom
 
 
-class TuyaController(udi_interface.Node):
+class Controller(udi_interface.Node):
     def __init__(self, polyglot, primary, address, name):
-        super(TuyaController, self).__init__(polyglot, primary, address, name)
+        super(Controller, self).__init__(polyglot, primary, address, name)
         self.poly = polyglot
         self.name = name
         self.primary = primary
