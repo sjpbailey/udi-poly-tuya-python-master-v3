@@ -1,0 +1,50 @@
+
+# controller
+ND-ctl-NAME = Tuya Switch Controller
+ND-ctl-ICON = Alarm
+ST-ctl-ST-NAME = NodeServer Online
+ST-ctl-GV0-NAME = Number of childeren
+CMD-ctl-DISCOVER-NAME = Re-Discover
+
+# Switch
+ND-switch-NAME = Switch 
+ND-switch-ICON = Electricity
+ST-swt-ST-NAME = Node Status
+ST-swt-GV2-NAME = Switch Status
+CMD-swt-SWTON-NAME = Switch On
+CMD-swt-SWTOF-NAME = Switch Off
+CMD-swt-QUERY-NAME = Query
+
+# mynodetype3
+ND-light-NAME = Light Node
+ND-light-ICON = Output
+ST-lgt-ST-NAME = Node Status
+ST-lgt-GV2-NAME = Light Status
+ST-lgt-GV3-NAME = Light Level
+ST-lgt-GV4-NAME = Light Mode Command
+#ST-lgt-GV5-NAME = Light Color Command
+#ST-lgt-GV5-NAME = Light Colour
+#ST-lgt-GV6-NAME = Light Scene
+#ST-lgt-GV7-NAME = Light Music
+#ST-lgt-GV8-NAME = Light White
+
+
+CMD-lgt-LGTON-NAME = Light On
+CMD-lgt-LGTOF-NAME = Light Off
+CMD-lgt-LGTCFLIP-NAME = Light Test
+CMD-lgt-STLVL-NAME = Set Level
+CMD-lgt-MODE-NAME = Command
+
+# LED Modes
+MODE-0 = Colour
+MODE-1 = Scene
+MODE-2 = Music
+MODE-3 = Red
+MODE-4 = Orange
+MODE-5 = Yellow
+MODE-6 = Green
+MODE-7 = Blue
+MODE-8 = Indigo
+MODE-9 = Violet
+MODE-10 = White
+

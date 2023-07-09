@@ -1,0 +1,60 @@
+<nodeDefs>
+    <!-- NODE DEF from 5.0 document http://wiki.universal-devices.com/index.php?title=V50_MAIN -->
+    <!-- controller, this must mach the id in your Controller class-->
+    <nodeDef id="ctl" nodeType="139" nls="ctl">
+        <editors />
+        <sts>
+            <st id="ST" editor="bool" />
+        </sts>
+        <cmds>
+            <sends />
+            <accepts>
+                <cmd id="DISCOVER" />
+            </accepts>
+        </cmds>
+    </nodeDef>
+
+    <nodeDef id="switch" nls="swt">
+        <editors />
+        <sts>
+            <st id="ST" editor="bool" />
+            <st id="GV2" editor="bool" />
+        </sts>
+        <cmds>
+            <sends />
+            <accepts>
+                <cmd id="SWTON" />
+                <cmd id="SWTOF" />
+                <cmd id="QUERY" />
+            </accepts>
+        </cmds>
+    </nodeDef>
+
+    <nodeDef id="light" nls="lgt">
+        <editors />
+        <sts>
+            <st id="ST" editor="bool" />
+            <st id="GV2" editor="bool" />
+            <st id="GV3" editor="LEVEL" />
+            <st id="GV4" editor="MODE" />
+        </sts>
+        <cmds>
+            <sends />
+            <accepts>
+                <cmd id="LGTON" />
+                <cmd id="LGTOF" />
+                <cmd id="LGTCFLIP" />
+
+                <cmd id="STLVL">
+                    <p id="" editor="LEVEL" init="GV3" />
+                </cmd>
+
+                <cmd id="MODE">
+                    <p id="" editor="MODE" init="GV4" />
+                </cmd>
+
+                <cmd id="QUERY" />
+            </accepts>
+        </cmds>
+    </nodeDef>
+</nodeDefs>

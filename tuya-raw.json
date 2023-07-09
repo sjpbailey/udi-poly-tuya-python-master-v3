@@ -1,0 +1,567 @@
+{
+    "result": [
+        {
+            "active_time": 1611129340,
+            "biz_type": 0,
+            "category": "dj",
+            "create_time": 1610826967,
+            "icon": "smart/icon/ay1526363067472WHq8d/b354bef20490dfd22c5a3d4c89b6269c.png",
+            "id": "ebfd4f4263bb769d99zjkq",
+            "ip": "98.41.236.33",
+            "lat": "37.7200",
+            "local_key": "ec0b2b581a246eab",
+            "lon": "-121.4700",
+            "model": "SL10",
+            "name": "LED Garage",
+            "online": true,
+            "owner_id": "33161067",
+            "product_id": "vcbxdeohrcq4tcpq",
+            "product_name": "Smart Bulb-SL10",
+            "status": [
+                {
+                    "code": "switch_led",
+                    "value": true
+                },
+                {
+                    "code": "work_mode",
+                    "value": "white"
+                },
+                {
+                    "code": "bright_value_v2",
+                    "value": 10
+                },
+                {
+                    "code": "temp_value_v2",
+                    "value": 1000
+                },
+                {
+                    "code": "colour_data_v2",
+                    "value": "{\"h\":0,\"s\":1000,\"v\":1000}"
+                },
+                {
+                    "code": "scene_data_v2",
+                    "value": "{\"scene_num\":1,\"scene_units\":[{\"bright\":24,\"h\":0,\"s\":0,\"temperature\":0,\"unit_change_mode\":\"static\",\"unit_gradient_duration\":13,\"unit_switch_duration\":13,\"v\":0}]}"
+                },
+                {
+                    "code": "countdown_1",
+                    "value": 0
+                },
+                {
+                    "code": "music_data",
+                    "value": ""
+                },
+                {
+                    "code": "control_data",
+                    "value": ""
+                },
+                {
+                    "code": "rhythm_mode",
+                    "value": "AAAAAAA="
+                },
+                {
+                    "code": "sleep_mode",
+                    "value": "AAA="
+                },
+                {
+                    "code": "wakeup_mode",
+                    "value": "AAA="
+                }
+            ],
+            "sub": false,
+            "time_zone": "-08:00",
+            "uid": "az1610958067414WkfOO",
+            "update_time": 1687246061,
+            "uuid": "51ff978b119a9dc2"
+        },
+        {
+            "active_time": 1687206036,
+            "biz_type": 0,
+            "category": "tgq",
+            "create_time": 1687206036,
+            "icon": "smart/icon/ay14906729310721fNjn/b084266157bb981ea7931f14a425c9f6.jpg",
+            "id": "804076608caab5d8ff58",
+            "ip": "98.41.236.33",
+            "lat": "37.7200",
+            "local_key": "B3n/7K_yHu4H~UIl",
+            "lon": "-121.4700",
+            "model": "DS01C(\u91cf\u4ea7\uff09",
+            "name": "DS01C Office Smart dimmer switch",
+            "online": true,
+            "owner_id": "33161067",
+            "product_id": "r3fg1ytyd4sd67ga",
+            "product_name": "DS01C Smart dimmer switch",
+            "status": [
+                {
+                    "code": "switch_led_1",
+                    "value": false
+                },
+                {
+                    "code": "bright_value_1",
+                    "value": 1000
+                },
+                {
+                    "code": "brightness_min_1",
+                    "value": 10
+                },
+                {
+                    "code": "led_type_1",
+                    "value": "incandescent"
+                }
+            ],
+            "sub": false,
+            "time_zone": "-08:00",
+            "uid": "az1610958067414WkfOO",
+            "update_time": 1687206304,
+            "uuid": "804076608caab5d8ff58"
+        },
+        {
+            "active_time": 1667065898,
+            "biz_type": 0,
+            "category": "kg",
+            "create_time": 1667064851,
+            "icon": "smart/icon/ay14906729310721fNjn/1568862445415ffab0175.jpg",
+            "id": "017743508caab5f126b0",
+            "ip": "98.41.236.33",
+            "lat": "37.7200",
+            "local_key": "17a1e4c963773637",
+            "lon": "-121.4700",
+            "model": "SS01S(\u4e0d\u5206\u8d1f\u8f7d)\u4e50\u946b",
+            "name": "Switch Master Outside",
+            "online": true,
+            "owner_id": "33161067",
+            "product_id": "pigcdkf9bdubtskr",
+            "product_name": "Smart Light Switch",
+            "status": [
+                {
+                    "code": "switch_1",
+                    "value": false
+                },
+                {
+                    "code": "countdown_1",
+                    "value": 0
+                }
+            ],
+            "sub": false,
+            "time_zone": "-08:00",
+            "uid": "az1610958067414WkfOO",
+            "update_time": 1687201825,
+            "uuid": "017743508caab5f126b0"
+        },
+        {
+            "active_time": 1660708648,
+            "biz_type": 0,
+            "category": "dd",
+            "create_time": 1612504334,
+            "icon": "smart/icon/ay14906729310721fNjn/f266b748d1b92584887cde26ea9212ca.png",
+            "id": "ebe097c0407da32084kvtr",
+            "ip": "98.41.236.33",
+            "lat": "37.7200",
+            "local_key": "22ad5946c44356a4",
+            "lon": "-121.4700",
+            "model": "\u706f\u5e26\u63a7\u5236\u5668\uff08BK\uff09",
+            "name": "LED Strip Cabinets ",
+            "online": true,
+            "owner_id": "33161067",
+            "product_id": "e8naaq4xcsfvuunf",
+            "product_name": "LED Strip Lights",
+            "status": [
+                {
+                    "code": "switch_led",
+                    "value": false
+                },
+                {
+                    "code": "work_mode",
+                    "value": "colour"
+                },
+                {
+                    "code": "colour_data",
+                    "value": "{\"h\":0,\"s\":0,\"v\":1000}"
+                },
+                {
+                    "code": "scene_data",
+                    "value": "{\"scene_num\":1,\"scene_units\":[{\"bright\":1000,\"h\":46,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"static\",\"unit_gradient_duration\":13,\"unit_switch_duration\":14,\"v\":716}]}"
+                },
+                {
+                    "code": "countdown",
+                    "value": 0
+                }
+            ],
+            "sub": false,
+            "time_zone": "-07:00",
+            "uid": "az1610958067414WkfOO",
+            "update_time": 1687201824,
+            "uuid": "c2854608edea94d7"
+        },
+        {
+            "active_time": 1686981690,
+            "biz_type": 0,
+            "category": "pir",
+            "create_time": 1686981690,
+            "icon": "smart/icon/ay15554925906369PM9S/131d393c8aa546206ffcf603f38ceb54.png",
+            "id": "eb29412a460a068676g8cv",
+            "ip": "98.41.236.33",
+            "lat": "37.7200",
+            "local_key": "~M0kO};;9R$d'wqL",
+            "lon": "-121.4700",
+            "model": "PIR-wifi-V01",
+            "name": "PIR",
+            "online": true,
+            "owner_id": "33161067",
+            "product_id": "o1l76njefmksbgkk",
+            "product_name": "PIR",
+            "status": [
+                {
+                    "code": "pir",
+                    "value": "none"
+                },
+                {
+                    "code": "battery_percentage",
+                    "value": 100
+                }
+            ],
+            "sub": false,
+            "time_zone": "-07:00",
+            "uid": "az1610958067414WkfOO",
+            "update_time": 1687201818,
+            "uuid": "8390601eff14128c"
+        },
+        {
+            "active_time": 1667790841,
+            "biz_type": 0,
+            "category": "kg",
+            "create_time": 1667790841,
+            "icon": "smart/icon/bay16152549642749hEX/745307f1dbba7bd204869174cac71a91.jpg",
+            "id": "eb7053a032f633f952bqq2",
+            "ip": "98.41.236.33",
+            "lat": "37.7200",
+            "local_key": "a792deae091dff2c",
+            "lon": "-121.4700",
+            "model": "\u5f00\u5173(\u84dd\u7259+Wi-Fi)",
+            "name": "Switch Front Door",
+            "online": true,
+            "owner_id": "33161067",
+            "product_id": "63mimezrlfmflhgf",
+            "product_name": "",
+            "status": [
+                {
+                    "code": "switch_1",
+                    "value": false
+                },
+                {
+                    "code": "countdown_1",
+                    "value": 0
+                },
+                {
+                    "code": "relay_status",
+                    "value": "power_off"
+                },
+                {
+                    "code": "light_mode",
+                    "value": "none"
+                },
+                {
+                    "code": "random_time",
+                    "value": ""
+                },
+                {
+                    "code": "switch_inching",
+                    "value": ""
+                }
+            ],
+            "sub": false,
+            "time_zone": "-08:00",
+            "uid": "az1610958067414WkfOO",
+            "update_time": 1687201816,
+            "uuid": "002f6d426c01557a"
+        },
+        {
+            "active_time": 1610958245,
+            "biz_type": 0,
+            "category": "kg",
+            "create_time": 1610826905,
+            "icon": "smart/icon/ay14906729310721fNjn/1568862445415ffab0175.jpg",
+            "id": "017743508caab5f0973e",
+            "ip": "98.41.236.33",
+            "lat": "37.7200",
+            "local_key": "e779c96c964f71b2",
+            "lon": "-121.4700",
+            "model": "SS01S(\u4e0d\u5206\u8d1f\u8f7d)\u4e50\u946b",
+            "name": "Switch Office Outside Lights",
+            "online": true,
+            "owner_id": "33161067",
+            "product_id": "pigcdkf9bdubtskr",
+            "product_name": "Smart Light Switch",
+            "status": [
+                {
+                    "code": "switch_1",
+                    "value": false
+                },
+                {
+                    "code": "countdown_1",
+                    "value": 0
+                }
+            ],
+            "sub": false,
+            "time_zone": "-08:00",
+            "uid": "az1610958067414WkfOO",
+            "update_time": 1687201815,
+            "uuid": "017743508caab5f0973e"
+        },
+        {
+            "active_time": 1610958307,
+            "biz_type": 0,
+            "category": "dj",
+            "create_time": 1610825045,
+            "icon": "smart/icon/ay1526363067472WHq8d/b354bef20490dfd22c5a3d4c89b6269c.png",
+            "id": "ebfc16d57ed374932cjqfk",
+            "ip": "98.41.236.33",
+            "lat": "37.7200",
+            "local_key": "805217605357161b",
+            "lon": "-121.4700",
+            "model": "SL10",
+            "name": "LED Office",
+            "online": true,
+            "owner_id": "33161067",
+            "product_id": "vcbxdeohrcq4tcpq",
+            "product_name": "Smart Bulb-SL10",
+            "status": [
+                {
+                    "code": "switch_led",
+                    "value": false
+                },
+                {
+                    "code": "work_mode",
+                    "value": "colour"
+                },
+                {
+                    "code": "bright_value_v2",
+                    "value": 100
+                },
+                {
+                    "code": "temp_value_v2",
+                    "value": 1000
+                },
+                {
+                    "code": "colour_data_v2",
+                    "value": "{\"h\":0,\"s\":0,\"v\":1000}"
+                },
+                {
+                    "code": "scene_data_v2",
+                    "value": "{\"scene_num\":2,\"scene_units\":[{\"bright\":100,\"h\":0,\"s\":0,\"temperature\":1000,\"unit_change_mode\":\"static\",\"unit_gradient_duration\":13,\"unit_switch_duration\":14,\"v\":0}]}"
+                },
+                {
+                    "code": "countdown_1",
+                    "value": 0
+                },
+                {
+                    "code": "music_data",
+                    "value": ""
+                },
+                {
+                    "code": "control_data",
+                    "value": ""
+                },
+                {
+                    "code": "rhythm_mode",
+                    "value": "AAAAAAA="
+                },
+                {
+                    "code": "sleep_mode",
+                    "value": "AAA="
+                },
+                {
+                    "code": "wakeup_mode",
+                    "value": "AAA="
+                }
+            ],
+            "sub": false,
+            "time_zone": "-08:00",
+            "uid": "az1610958067414WkfOO",
+            "update_time": 1687201814,
+            "uuid": "8d46651d2af2bb95"
+        },
+        {
+            "active_time": 1667663221,
+            "biz_type": 0,
+            "category": "kg",
+            "create_time": 1667663221,
+            "icon": "smart/icon/ay14906729310721fNjn/1568862445415ffab0175.jpg",
+            "id": "017743508caab5f29984",
+            "ip": "98.41.236.33",
+            "lat": "37.7200",
+            "local_key": "be9d5b1387e6f231",
+            "lon": "-121.4700",
+            "model": "SS01S(\u4e0d\u5206\u8d1f\u8f7d)\u4e50\u946b",
+            "name": "Switch Dining Pool Outside ",
+            "online": true,
+            "owner_id": "33161067",
+            "product_id": "pigcdkf9bdubtskr",
+            "product_name": "Smart Light Switch",
+            "status": [
+                {
+                    "code": "switch_1",
+                    "value": false
+                },
+                {
+                    "code": "countdown_1",
+                    "value": 0
+                }
+            ],
+            "sub": false,
+            "time_zone": "-08:00",
+            "uid": "az1610958067414WkfOO",
+            "update_time": 1687201814,
+            "uuid": "017743508caab5f29984"
+        },
+        {
+            "active_time": 1667791431,
+            "biz_type": 0,
+            "category": "kg",
+            "create_time": 1667790099,
+            "icon": "smart/icon/ay1555569556653Lg790/158710187562e22f82bcb.jpg",
+            "id": "eb7ac0fbe689ca95f7dxxk",
+            "ip": "98.41.236.33",
+            "lat": "37.7200",
+            "local_key": "449ebc60812eb8bb",
+            "lon": "-121.4700",
+            "model": "SS01S\uff08\u706b\u7ebf\u8d1f\u8f7d\u7ebf\u4e0d\u5206\u7248\u672c\uff09BK\u7248\u672c",
+            "name": "Switch Garage Overhead ",
+            "online": true,
+            "owner_id": "33161067",
+            "product_id": "m1kegihkhoqnagqg",
+            "product_name": "SS01S Smart Light Switch1",
+            "status": [
+                {
+                    "code": "switch_1",
+                    "value": true
+                }
+            ],
+            "sub": false,
+            "time_zone": "-08:00",
+            "uid": "az1610958067414WkfOO",
+            "update_time": 1687201814,
+            "uuid": "536e96f6e690d31f"
+        },
+        {
+            "active_time": 1667667757,
+            "biz_type": 0,
+            "category": "kg",
+            "create_time": 1667667757,
+            "icon": "smart/icon/ay1555569556653Lg790/158710187562e22f82bcb.jpg",
+            "id": "eb577fdd6642efcbc3g0qc",
+            "ip": "98.41.236.33",
+            "lat": "37.7200",
+            "local_key": "85861de497baa60d",
+            "lon": "-121.4700",
+            "model": "SS01S\uff08\u706b\u7ebf\u8d1f\u8f7d\u7ebf\u4e0d\u5206\u7248\u672c\uff09BK\u7248\u672c",
+            "name": "Switch Side Garage Outside ",
+            "online": true,
+            "owner_id": "33161067",
+            "product_id": "m1kegihkhoqnagqg",
+            "product_name": "SS01S Smart Light Switch1",
+            "status": [
+                {
+                    "code": "switch_1",
+                    "value": false
+                }
+            ],
+            "sub": false,
+            "time_zone": "-07:00",
+            "uid": "az1610958067414WkfOO",
+            "update_time": 1687201813,
+            "uuid": "df8dbcb4dbbf02d1"
+        },
+        {
+            "active_time": 1656839758,
+            "biz_type": 0,
+            "category": "kg",
+            "create_time": 1615015039,
+            "icon": "smart/icon/ay14906729310721fNjn/1568862445415ffab0175.jpg",
+            "id": "017743508caab5f385a7",
+            "ip": "98.41.236.33",
+            "lat": "37.7200",
+            "local_key": "2bc2d5aef80f3aee",
+            "lon": "-121.4700",
+            "model": "SS01S(\u4e0d\u5206\u8d1f\u8f7d)\u4e50\u946b",
+            "name": "Switch Garden Outside",
+            "online": true,
+            "owner_id": "33161067",
+            "product_id": "pigcdkf9bdubtskr",
+            "product_name": "Smart Light Switch",
+            "status": [
+                {
+                    "code": "switch_1",
+                    "value": false
+                },
+                {
+                    "code": "countdown_1",
+                    "value": 0
+                }
+            ],
+            "sub": false,
+            "time_zone": "-08:00",
+            "uid": "az1610958067414WkfOO",
+            "update_time": 1687201812,
+            "uuid": "017743508caab5f385a7"
+        },
+        {
+            "active_time": 1667849030,
+            "biz_type": 0,
+            "category": "kg",
+            "create_time": 1667849030,
+            "icon": "smart/icon/bay16152549642749hEX/745307f1dbba7bd204869174cac71a91.jpg",
+            "id": "eb9f1eaef823420e19bewt",
+            "ip": "98.41.236.33",
+            "lat": "37.7200",
+            "local_key": "659ef2b2c7d3a60a",
+            "lon": "-121.4700",
+            "model": "\u5f00\u5173(\u84dd\u7259+Wi-Fi)",
+            "name": "Switch Dutch Door",
+            "online": true,
+            "owner_id": "33161067",
+            "product_id": "63mimezrlfmflhgf",
+            "product_name": "",
+            "status": [
+                {
+                    "code": "switch_1",
+                    "value": false
+                },
+                {
+                    "code": "countdown_1",
+                    "value": 0
+                },
+                {
+                    "code": "relay_status",
+                    "value": "power_off"
+                },
+                {
+                    "code": "light_mode",
+                    "value": "none"
+                },
+                {
+                    "code": "random_time",
+                    "value": ""
+                },
+                {
+                    "code": "switch_inching",
+                    "value": ""
+                }
+            ],
+            "sub": false,
+            "time_zone": "-08:00",
+            "uid": "az1610958067414WkfOO",
+            "update_time": 1687201812,
+            "uuid": "812986ca4457ba24"
+        }
+    ],
+    "success": true,
+    "t": 1687261463750,
+    "tid": "cd4f26c90f5f11eea9198a65b56d89fe",
+    "file": {
+        "name": "tuya-raw.json",
+        "description": "Full raw list of Tuya devices.",
+        "account": "txejpdfda9iwmn5cg2es",
+        "date": "2023-06-20T04:44:24.209179",
+        "tinytuya": "1.12.7"
+    }
+}

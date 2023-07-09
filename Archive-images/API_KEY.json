@@ -1,0 +1,26 @@
+
+[
+    {
+        "apiKey": "txejpdfda9iwmn5cg2es",
+        "apiSecret": "46d6072ffd724e0ba5ebeb5cc6b9dce9",
+        "apiRegion": "us",
+
+        "switchnodes": "",
+		"id1": "017743508caab5f0973e",
+		"ip1": "192.168.1.145",
+		"key1": "e779c96c964f71b2",
+		"id2": "017743508caab5f385a7",
+		"ip2": "192.168.1.155",
+		"key2": "7b8f2415ac96dfea",
+		"lightnodes": "",
+		"id3": "ebfc16d57ed374932cjqfk",
+		"ip3": "192.168.1.147",
+		"key3": "805217605357161b",
+		"id4": "ebfd4f4263bb769d99zjkq",
+		"ip4": "192.168.1.146",
+		"key4": "ec0b2b581a246eab"
+    
+    
+        }
+]
+
