@@ -108,6 +108,7 @@ class Controller(udi_interface.Node):
     def createNodes(self):
         LOGGER.info("Gathering Devices Please be Patient")
         """Uses Bash run to gather devices for addNode """
+        devices_list = json.loads(self.Parameters['devices'])
         devices = tinytuya.deviceScan(False, 20)
         LOGGER.info(devices)
         for value in devices.values():
