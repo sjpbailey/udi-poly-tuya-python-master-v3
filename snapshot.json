@@ -1,306 +1,61 @@
 {
-    "timestamp": 1688949511.4173021,
+    "timestamp": 1688949773.040564,
     "devices": [
         {
-            "id": "68635610e8db84fff7ea",
-            "ip": "192.168.1.105",
-            "active": 2,
-            "ability": 0,
-            "mode": 0,
-            "encrypt": true,
-            "productKey": "waq2wj9pjadcg1qc",
-            "name": "",
-            "key": "",
-            "mac": "e8:db:84:ff:f7:ea",
-            "token": "",
-            "wf_cfg": "",
-            "dev_type": "default",
-            "origin": "broadcast",
-            "ver": "3.3"
-        },
-        {
-            "id": "eb9f1eaef823420e19bewt",
-            "ip": "192.168.1.110",
-            "active": 2,
-            "encrypt": true,
-            "productKey": "keyu5sjrcfhjsvd8",
-            "name": "Switch Dutch Door",
-            "key": "659ef2b2c7d3a60a",
-            "mac": "d8:1f:12:32:bf:7f",
-            "ability": 0,
-            "token": "",
-            "wf_cfg": "",
-            "dev_type": "default",
-            "err": "",
-            "type": "default",
-            "dps": {
-                "dps": {
-                    "1": false,
-                    "7": 0,
-                    "15": "none",
-                    "18": ""
-                }
-            },
-            "origin": "broadcast",
-            "ver": "3.3"
-        },
-        {
-            "id": "eb7ac0fbe689ca95f7dxxk",
-            "ip": "192.168.1.109",
-            "active": 2,
-            "encrypt": true,
-            "productKey": "keya4gvchmtapm8n",
-            "name": "Switch Garage Overhead",
-            "key": "449ebc60812eb8bb",
-            "mac": "38:1f:8d:18:5e:a2",
-            "ability": 0,
-            "token": "",
-            "wf_cfg": "",
-            "dev_type": "default",
-            "err": "",
-            "type": "default",
-            "dps": {
-                "dps": {
-                    "1": false,
-                    "9": 0,
-                    "38": "off",
-                    "40": "relay",
-                    "41": false,
-                    "42": "",
-                    "43": "",
-                    "44": ""
-                }
-            },
-            "origin": "broadcast",
-            "ver": "3.3"
-        },
-        {
-            "id": "017743508caab5f126b0",
-            "ip": "192.168.1.102",
-            "active": 2,
-            "ability": 0,
-            "mode": 0,
-            "encrypt": true,
-            "productKey": "key5nck4tavy43jp",
-            "name": "Switch Master Outside",
-            "key": "17a1e4c963773637",
-            "mac": "8c:aa:b5:f1:26:b0",
-            "token": "",
-            "wf_cfg": "",
-            "dev_type": "default",
-            "err": "",
-            "type": "default",
-            "dps": {
-                "devId": "017743508caab5f126b0",
-                "dps": {
-                    "1": false,
-                    "9": 0
-                }
-            },
-            "origin": "broadcast",
-            "ver": "3.3"
-        },
-        {
-            "id": "ebe097c0407da32084kvtr",
-            "ip": "192.168.1.155",
-            "active": 2,
-            "encrypt": true,
-            "productKey": "keys8pj5xkq8cmrm",
-            "name": "LED Strip Cabinets",
-            "key": "22ad5946c44356a4",
-            "mac": "d4:a6:51:a0:9f:98",
-            "ability": 0,
-            "token": "",
-            "wf_cfg": "",
-            "dev_type": "default",
-            "err": "",
-            "type": "default",
-            "dps": {
-                "dps": {
-                    "20": false,
-                    "21": "colour",
-                    "24": "011003e803e8",
-                    "25": "d16464020010000003e80000000064640200db03e803e800000000646402001503e803e800000000646402003c03e803e800000000646402012903e803e800000000646402007d03e803e800000000646402000303e803e800000000646402014d03e803e800000000",
-                    "26": 0
-                }
-            },
-            "origin": "broadcast",
-            "ver": "3.3"
-        },
-        {
-            "id": "eb64341be3d433d8615eib",
-            "ip": "192.168.1.103",
-            "active": 2,
-            "encrypt": true,
-            "productKey": "key8u54q9dtru5jw",
-            "name": "",
-            "key": "",
-            "mac": "",
-            "ability": 0,
-            "token": "",
-            "wf_cfg": "",
-            "dev_type": "default",
-            "origin": "broadcast",
-            "ver": "3.3"
-        },
-        {
-            "id": "804076608caab5d8ff58",
-            "ip": "192.168.1.104",
-            "active": 2,
-            "ability": 0,
-            "mode": 0,
-            "encrypt": true,
-            "productKey": "r3fg1ytyd4sd67ga",
-            "name": "DS01C Office Smart dimmer switch",
-            "key": "B3n/7K_yHu4H~UIl",
-            "mac": "8c:aa:b5:d8:ff:58",
-            "token": "",
-            "wf_cfg": "",
-            "dev_type": "default",
-            "err": "",
-            "type": "default",
-            "dps": {
-                "devId": "804076608caab5d8ff58",
-                "dps": {
-                    "1": false,
-                    "2": 150,
-                    "3": 148,
-                    "4": "halogen"
-                }
-            },
-            "origin": "broadcast",
-            "ver": "3.3"
-        },
-        {
-            "id": "eb15aedab22caae790c8xc",
-            "ip": "192.168.1.118",
-            "active": 2,
-            "encrypt": true,
-            "productKey": "keym557nqw3p8p7m",
-            "lan_cap": 500,
-            "lan_seq": 3,
-            "name": "",
-            "key": "",
-            "mac": "",
-            "ability": 0,
-            "token": "",
-            "wf_cfg": "",
-            "dev_type": "default",
-            "origin": "broadcast",
-            "ver": "3.3"
-        },
-        {
-            "id": "017743508caab5f29984",
-            "ip": "192.168.1.101",
-            "active": 2,
-            "ability": 0,
-            "mode": 0,
-            "encrypt": true,
-            "productKey": "key5nck4tavy43jp",
-            "name": "Switch Dining Pool Outside",
-            "key": "be9d5b1387e6f231",
-            "mac": "8c:aa:b5:f2:99:84",
-            "token": "",
-            "wf_cfg": "",
-            "dev_type": "default",
-            "err": "",
-            "type": "default",
-            "dps": {
-                "devId": "017743508caab5f29984",
-                "dps": {
-                    "1": false,
-                    "9": 0
-                }
-            },
-            "origin": "broadcast",
-            "ver": "3.3"
-        },
-        {
-            "id": "017743508caab5f385a7",
-            "ip": "192.168.1.146",
-            "active": 2,
-            "ability": 0,
-            "mode": 0,
-            "encrypt": true,
-            "productKey": "key5nck4tavy43jp",
-            "name": "Switch Garden Outside",
-            "key": "2bc2d5aef80f3aee",
-            "mac": "8c:aa:b5:f3:85:a7",
-            "token": "",
-            "wf_cfg": "",
-            "dev_type": "default",
-            "err": "",
-            "type": "default",
-            "dps": {
-                "devId": "017743508caab5f385a7",
-                "dps": {
-                    "1": false,
-                    "9": 0
-                }
-            },
-            "origin": "broadcast",
-            "ver": "3.3"
-        },
-        {
-            "id": "ebfc16d57ed374932cjqfk",
-            "ip": "192.168.1.147",
-            "active": 2,
-            "encrypt": true,
-            "productKey": "keypcvqhw97kqy4h",
-            "name": "LED Office",
-            "key": "805217605357161b",
-            "mac": "84:e3:42:1a:96:35",
-            "ability": 0,
-            "token": "",
-            "wf_cfg": "",
-            "dev_type": "default",
-            "err": "",
-            "type": "default",
-            "dps": {
-                "dps": {
-                    "20": true,
-                    "21": "white",
-                    "22": 10,
-                    "23": 100,
-                    "24": "0076002d03e8",
-                    "25": "05464601000003e803e800000000464601007803e803e80000000046460100f003e803e800000000464601003d03e803e80000000046460100ae03e803e800000000464601011303e803e800000000",
-                    "26": 0
-                }
-            },
-            "origin": "broadcast",
-            "ver": "3.3"
-        },
-        {
-            "id": "eb6030576f0771d21aiagq",
             "ip": "192.168.1.112",
+            "gwId": "eb6030576f0771d21aiagq",
             "active": 2,
+            "ablilty": 0,
             "encrypt": true,
             "productKey": "qxayjr5ria2pedlx",
+            "version": "3.4",
             "token": true,
             "wf_cfg": true,
-            "name": "",
-            "key": "",
-            "mac": "",
-            "ability": 0,
-            "dev_type": "default",
-            "origin": "broadcast",
+            "dps": {
+                "dps": {
+                    "1": "none",
+                    "4": 0,
+                    "102": 20,
+                    "103": true,
+                    "104": true
+                }
+            },
+            "name": "PIR Motion Test",
+            "key": "8gk]#qU6{O2m?0x;",
+            "mac": "1c:90:ff:b7:f4:e7",
+            "id": "eb6030576f0771d21aiagq",
             "ver": "3.4"
         },
         {
-            "id": "ebfd4f4263bb769d99zjkq",
-            "ip": "192.168.1.148",
+            "ip": "192.168.1.145",
+            "gwId": "017743508caab5f0973e",
             "active": 2,
+            "ability": 0,
+            "mode": 0,
+            "encrypt": true,
+            "productKey": "key5nck4tavy43jp",
+            "version": "3.3",
+            "dps": {
+                "devId": "017743508caab5f0973e",
+                "dps": {
+                    "1": false,
+                    "9": 0
+                }
+            },
+            "name": "Switch Office Outside Lights",
+            "key": "e779c96c964f71b2",
+            "mac": "8c:aa:b5:f0:97:3e",
+            "id": "017743508caab5f0973e",
+            "ver": "3.3"
+        },
+        {
+            "ip": "192.168.1.148",
+            "gwId": "ebfd4f4263bb769d99zjkq",
+            "active": 2,
+            "ablilty": 0,
             "encrypt": true,
             "productKey": "keypcvqhw97kqy4h",
-            "name": "LED Garage",
-            "key": "ec0b2b581a246eab",
-            "mac": "84:e3:42:1a:94:31",
-            "ability": 0,
-            "token": "",
-            "wf_cfg": "",
-            "dev_type": "default",
-            "err": "",
-            "type": "default",
+            "version": "3.3",
             "dps": {
                 "dps": {
                     "20": true,
@@ -312,82 +67,72 @@
                     "26": 0
                 }
             },
-            "origin": "broadcast",
+            "name": "LED Garage",
+            "key": "ec0b2b581a246eab",
+            "mac": "84:e3:42:1a:94:31",
+            "id": "ebfd4f4263bb769d99zjkq",
             "ver": "3.3"
         },
         {
-            "id": "017743508caab5f0973e",
-            "ip": "192.168.1.145",
-            "active": 2,
-            "ability": 0,
-            "mode": 0,
-            "encrypt": true,
-            "productKey": "key5nck4tavy43jp",
-            "name": "Switch Office Outside Lights",
-            "key": "e779c96c964f71b2",
-            "mac": "8c:aa:b5:f0:97:3e",
-            "token": "",
-            "wf_cfg": "",
-            "dev_type": "default",
-            "err": "",
-            "type": "default",
-            "dps": {
-                "devId": "017743508caab5f0973e",
-                "dps": {
-                    "1": false,
-                    "9": 0
-                }
-            },
-            "origin": "broadcast",
-            "ver": "3.3"
-        },
-        {
-            "id": "ebc869e82826ff7e275hwy",
             "ip": "192.168.1.107",
+            "gwId": "ebc869e82826ff7e275hwy",
             "active": 2,
+            "ablilty": 0,
             "encrypt": true,
             "productKey": "keypcvqhw97kqy4h",
-            "name": "",
-            "key": "",
-            "mac": "",
-            "ability": 0,
-            "token": "",
-            "wf_cfg": "",
-            "dev_type": "default",
-            "origin": "broadcast",
+            "version": "3.3",
+            "dps": {
+                "dps": {
+                    "20": false,
+                    "21": "scene",
+                    "22": 250,
+                    "23": 0,
+                    "24": "00f003e803e8",
+                    "25": "07464602000003e803e800000000464602007803e803e80000000046460200f003e803e800000000464602003d03e803e80000000046460200ae03e803e800000000464602011303e803e800000000",
+                    "26": 0
+                }
+            },
+            "name": "LED Sconce 2",
+            "key": "Y$K0Ux>U=_Tg9s8k",
+            "mac": "84:e3:42:1a:7b:a0",
+            "id": "ebc869e82826ff7e275hwy",
             "ver": "3.3"
         },
         {
-            "id": "eb5add4f3bbf86a94bs3o6",
             "ip": "192.168.1.106",
+            "gwId": "eb5add4f3bbf86a94bs3o6",
             "active": 2,
+            "ablilty": 0,
             "encrypt": true,
             "productKey": "ela0pxryflaldubr",
-            "name": "",
-            "key": "",
-            "mac": "",
-            "ability": 0,
-            "token": "",
-            "wf_cfg": "",
-            "dev_type": "default",
-            "origin": "broadcast",
+            "version": "3.3",
+            "dps": {
+                "dps": {
+                    "2": false,
+                    "3": "chargego",
+                    "5": "charge_done",
+                    "6": 100,
+                    "14": "normal",
+                    "17": 0,
+                    "18": 0,
+                    "20": "low",
+                    "103": "fan_tank_in"
+                }
+            },
+            "name": "Sweeping robot",
+            "key": "?7.Flw'W@~zI3HuR",
+            "mac": "1c:90:ff:ac:38:0e",
+            "id": "eb5add4f3bbf86a94bs3o6",
             "ver": "3.3"
         },
         {
-            "id": "eb7053a032f633f952bqq2",
             "ip": "192.168.1.113",
+            "gwId": "eb7053a032f633f952bqq2",
             "active": 2,
+            "ablilty": 0,
             "encrypt": true,
             "productKey": "keyu5sjrcfhjsvd8",
-            "name": "Switch Front Door",
-            "key": "a792deae091dff2c",
-            "mac": "d8:1f:12:32:8c:79",
-            "ability": 0,
-            "token": "",
-            "wf_cfg": "",
-            "dev_type": "default",
-            "err": "",
-            "type": "default",
+            "version": "3.3",
             "dps": {
                 "dps": {
                     "1": false,
@@ -396,24 +141,20 @@
                     "18": ""
                 }
             },
-            "origin": "broadcast",
+            "name": "Switch Front Door",
+            "key": "a792deae091dff2c",
+            "mac": "d8:1f:12:32:8c:79",
+            "id": "eb7053a032f633f952bqq2",
             "ver": "3.3"
         },
         {
-            "id": "eb577fdd6642efcbc3g0qc",
             "ip": "192.168.1.111",
+            "gwId": "eb577fdd6642efcbc3g0qc",
             "active": 2,
+            "ablilty": 0,
             "encrypt": true,
             "productKey": "keya4gvchmtapm8n",
-            "name": "Switch Side Garage Outside",
-            "key": "85861de497baa60d",
-            "mac": "38:1f:8d:18:57:b3",
-            "ability": 0,
-            "token": "",
-            "wf_cfg": "",
-            "dev_type": "default",
-            "err": "",
-            "type": "default",
+            "version": "3.3",
             "dps": {
                 "dps": {
                     "1": false,
@@ -426,16 +167,298 @@
                     "44": ""
                 }
             },
-            "origin": "broadcast",
+            "name": "Switch Side Garage Outside",
+            "key": "85861de497baa60d",
+            "mac": "38:1f:8d:18:57:b3",
+            "id": "eb577fdd6642efcbc3g0qc",
             "ver": "3.3"
         },
         {
-            "id": "eb29412a460a068676g8cv",
-            "name": "PIR",
-            "key": "~M0kO};;9R$d'wqL",
-            "mac": "fc:67:1f:2a:27:11",
-            "uuid": "8390601eff14128c",
-            "sn": "1000846110000E",
+            "ip": "192.168.1.105",
+            "gwId": "68635610e8db84fff7ea",
+            "active": 2,
+            "ability": 0,
+            "mode": 0,
+            "encrypt": true,
+            "productKey": "waq2wj9pjadcg1qc",
+            "version": "3.3",
+            "dps": {
+                "devId": "68635610e8db84fff7ea",
+                "dps": {
+                    "1": false,
+                    "2": false,
+                    "3": false,
+                    "4": false,
+                    "7": 0,
+                    "8": 0,
+                    "9": 0,
+                    "10": 0,
+                    "13": false,
+                    "101": true,
+                    "102": "selflock",
+                    "103": 5
+                }
+            },
+            "name": "WiFi switch-4CH",
+            "key": "#r0>b64A>a7<w_O:",
+            "mac": "e8:db:84:ff:f7:ea",
+            "id": "68635610e8db84fff7ea",
+            "ver": "3.3"
+        },
+        {
+            "ip": "192.168.1.110",
+            "gwId": "eb9f1eaef823420e19bewt",
+            "active": 2,
+            "ablilty": 0,
+            "encrypt": true,
+            "productKey": "keyu5sjrcfhjsvd8",
+            "version": "3.3",
+            "dps": {
+                "dps": {
+                    "1": false,
+                    "7": 0,
+                    "15": "none",
+                    "18": ""
+                }
+            },
+            "name": "Switch Dutch Door",
+            "key": "659ef2b2c7d3a60a",
+            "mac": "d8:1f:12:32:bf:7f",
+            "id": "eb9f1eaef823420e19bewt",
+            "ver": "3.3"
+        },
+        {
+            "ip": "192.168.1.109",
+            "gwId": "eb7ac0fbe689ca95f7dxxk",
+            "active": 2,
+            "ablilty": 0,
+            "encrypt": true,
+            "productKey": "keya4gvchmtapm8n",
+            "version": "3.3",
+            "dps": {
+                "dps": {
+                    "1": false,
+                    "9": 0,
+                    "38": "off",
+                    "40": "relay",
+                    "41": false,
+                    "42": "",
+                    "43": "",
+                    "44": ""
+                }
+            },
+            "name": "Switch Garage Overhead",
+            "key": "449ebc60812eb8bb",
+            "mac": "38:1f:8d:18:5e:a2",
+            "id": "eb7ac0fbe689ca95f7dxxk",
+            "ver": "3.3"
+        },
+        {
+            "ip": "192.168.1.102",
+            "gwId": "017743508caab5f126b0",
+            "active": 2,
+            "ability": 0,
+            "mode": 0,
+            "encrypt": true,
+            "productKey": "key5nck4tavy43jp",
+            "version": "3.3",
+            "dps": {
+                "devId": "017743508caab5f126b0",
+                "dps": {
+                    "1": false,
+                    "9": 0
+                }
+            },
+            "name": "Switch Master Outside",
+            "key": "17a1e4c963773637",
+            "mac": "8c:aa:b5:f1:26:b0",
+            "id": "017743508caab5f126b0",
+            "ver": "3.3"
+        },
+        {
+            "ip": "192.168.1.155",
+            "gwId": "ebe097c0407da32084kvtr",
+            "active": 2,
+            "ablilty": 0,
+            "encrypt": true,
+            "productKey": "keys8pj5xkq8cmrm",
+            "version": "3.3",
+            "dps": {
+                "dps": {
+                    "20": false,
+                    "21": "colour",
+                    "24": "011003e803e8",
+                    "25": "d16464020010000003e80000000064640200db03e803e800000000646402001503e803e800000000646402003c03e803e800000000646402012903e803e800000000646402007d03e803e800000000646402000303e803e800000000646402014d03e803e800000000",
+                    "26": 0
+                }
+            },
+            "name": "LED Strip Cabinets",
+            "key": "22ad5946c44356a4",
+            "mac": "d4:a6:51:a0:9f:98",
+            "id": "ebe097c0407da32084kvtr",
+            "ver": "3.3"
+        },
+        {
+            "ip": "192.168.1.104",
+            "gwId": "804076608caab5d8ff58",
+            "active": 2,
+            "ability": 0,
+            "mode": 0,
+            "encrypt": true,
+            "productKey": "r3fg1ytyd4sd67ga",
+            "version": "3.3",
+            "dps": {
+                "devId": "804076608caab5d8ff58",
+                "dps": {
+                    "1": false,
+                    "2": 150,
+                    "3": 148,
+                    "4": "halogen"
+                }
+            },
+            "name": "Office Smart Dimmer Switch",
+            "key": "B3n/7K_yHu4H~UIl",
+            "mac": "8c:aa:b5:d8:ff:58",
+            "id": "804076608caab5d8ff58",
+            "ver": "3.3"
+        },
+        {
+            "ip": "192.168.1.103",
+            "gwId": "eb64341be3d433d8615eib",
+            "active": 2,
+            "ablilty": 0,
+            "encrypt": true,
+            "productKey": "key8u54q9dtru5jw",
+            "version": "3.3",
+            "dps": {
+                "dps": {
+                    "20": false,
+                    "21": "scene",
+                    "22": 250,
+                    "23": 0,
+                    "24": "000000000000",
+                    "25": "07464602000003e803e800000000464602007803e803e80000000046460200f003e803e800000000464602003d03e803e80000000046460200ae03e803e800000000464602011303e803e800000000",
+                    "26": 0
+                }
+            },
+            "name": "LED Sconce 1",
+            "key": "T>.3PH+{p+P4g5+1",
+            "mac": "10:5a:17:80:57:ed",
+            "id": "eb64341be3d433d8615eib",
+            "ver": "3.3"
+        },
+        {
+            "ip": "192.168.1.101",
+            "gwId": "017743508caab5f29984",
+            "active": 2,
+            "ability": 0,
+            "mode": 0,
+            "encrypt": true,
+            "productKey": "key5nck4tavy43jp",
+            "version": "3.3",
+            "dps": {
+                "devId": "017743508caab5f29984",
+                "dps": {
+                    "1": false,
+                    "9": 0
+                }
+            },
+            "name": "Switch Dining Pool Outside",
+            "key": "be9d5b1387e6f231",
+            "mac": "8c:aa:b5:f2:99:84",
+            "id": "017743508caab5f29984",
+            "ver": "3.3"
+        },
+        {
+            "ip": "192.168.1.146",
+            "gwId": "017743508caab5f385a7",
+            "active": 2,
+            "ability": 0,
+            "mode": 0,
+            "encrypt": true,
+            "productKey": "key5nck4tavy43jp",
+            "version": "3.3",
+            "dps": {
+                "devId": "017743508caab5f385a7",
+                "dps": {
+                    "1": false,
+                    "9": 0
+                }
+            },
+            "name": "Switch Garden Outside",
+            "key": "2bc2d5aef80f3aee",
+            "mac": "8c:aa:b5:f3:85:a7",
+            "id": "017743508caab5f385a7",
+            "ver": "3.3"
+        },
+        {
+            "ip": "192.168.1.147",
+            "gwId": "ebfc16d57ed374932cjqfk",
+            "active": 2,
+            "ablilty": 0,
+            "encrypt": true,
+            "productKey": "keypcvqhw97kqy4h",
+            "version": "3.3",
+            "dps": {
+                "dps": {
+                    "20": true,
+                    "21": "white",
+                    "22": 10,
+                    "23": 100,
+                    "24": "0076002d03e8",
+                    "25": "05464601000003e803e800000000464601007803e803e80000000046460100f003e803e800000000464601003d03e803e80000000046460100ae03e803e800000000464601011303e803e800000000",
+                    "26": 0
+                }
+            },
+            "name": "LED Office",
+            "key": "805217605357161b",
+            "mac": "84:e3:42:1a:96:35",
+            "id": "ebfc16d57ed374932cjqfk",
+            "ver": "3.3"
+        },
+        {
+            "ip": "192.168.1.118",
+            "gwId": "eb15aedab22caae790c8xc",
+            "active": 2,
+            "ablilty": 0,
+            "encrypt": true,
+            "productKey": "keym557nqw3p8p7m",
+            "version": "3.3",
+            "lan_cap": 500,
+            "lan_seq": 3,
+            "dps": {
+                "dps": {
+                    "4": false,
+                    "32": "normal"
+                }
+            },
+            "name": "\u65e0\u7ebf\u591a\u6a21\u7f51\u5173",
+            "key": "*l~tCyJEM0:(c^(i",
+            "mac": "fc:67:1f:37:22:97",
+            "id": "eb15aedab22caae790c8xc",
+            "ver": "3.3"
+        },
+        {
+            "name": "PIR Master",
+            "id": "eb5e5f786fffbf04b9ldxl",
+            "key": ")pV=i/M$Xz>bFHEN",
+            "mac": "a0:92:08:d1:9e:cf",
+            "category": "pir",
+            "product_name": "PIR Sensor ",
+            "product_id": "tuadvwloutnzat2p",
+            "biz_type": 0,
+            "model": "",
+            "sub": false,
+            "icon": "https://images.tuyaus.com/smart/icon/ay1524194438166Zg2hZ/162545442419b6b47e132.jpg",
+            "uuid": "7c864f922baac602",
+            "gwId": "eb5e5f786fffbf04b9ldxl",
+            "ip": 0
+        },
+        {
+            "name": "PIR Dining Pool",
+            "id": "eb8c370fe28aad5fa2fkgs",
+            "key": "~1X9#yS*VBh5LtS^",
+            "mac": "fc:67:1f:2a:1a:9f",
             "category": "pir",
             "product_name": "PIR",
             "product_id": "o1l76njefmksbgkk",
@@ -443,9 +466,73 @@
             "model": "PIR-wifi-V01",
             "sub": false,
             "icon": "https://images.tuyaus.com/smart/icon/ay15554925906369PM9S/131d393c8aa546206ffcf603f38ceb54.png",
-            "ip": "",
-            "origin": "cloud",
-            "ver": ""
+            "uuid": "b2f0eab076fec4db",
+            "gwId": "eb8c370fe28aad5fa2fkgs",
+            "ip": 0
+        },
+        {
+            "name": "PIR Garden",
+            "id": "eb2d37c68a837fe419iikc",
+            "key": "Fh&3Y7}LY#cTh+~8",
+            "mac": "fc:67:1f:2a:21:2f",
+            "category": "pir",
+            "product_name": "PIR",
+            "product_id": "o1l76njefmksbgkk",
+            "biz_type": 0,
+            "model": "PIR-wifi-V01",
+            "sub": false,
+            "icon": "https://images.tuyaus.com/smart/icon/ay15554925906369PM9S/131d393c8aa546206ffcf603f38ceb54.png",
+            "uuid": "3bc8f9037fec2091",
+            "gwId": "eb2d37c68a837fe419iikc",
+            "ip": 0
+        },
+        {
+            "name": "Door Contact Sensor",
+            "id": "eb1a6a7a7f7a5caebcgick",
+            "key": "nPfNk[`]QtP}h?Ln",
+            "mac": "a0:92:08:1f:ee:cb",
+            "category": "mcs",
+            "product_name": "Contact Sensor",
+            "product_id": "5clcipazwycf176m",
+            "biz_type": 0,
+            "model": "AW201_CBU",
+            "sub": false,
+            "icon": "https://images.tuyaus.com/smart/icon/ay1562583874631k02Aw/051a2210ea3db49d307a52778aabe00e.jpg",
+            "uuid": "965c3d67e81e3106",
+            "gwId": "eb1a6a7a7f7a5caebcgick",
+            "ip": 0
+        },
+        {
+            "name": "PIR Gate",
+            "id": "eb0689ecbb2914fdcffopt",
+            "key": "_]P=rEGO..UA|_d]",
+            "mac": "a8:80:55:1d:46:cc",
+            "category": "pir",
+            "product_name": "PIR senser",
+            "product_id": "rp9akkjbohm7xdwe",
+            "biz_type": 0,
+            "model": "CT60W_CBU_NL",
+            "sub": false,
+            "icon": "https://images.tuyaus.com/smart/icon/ay1562583874631k02Aw/490e26f4b6e3bb27fc60e8e1ebc013ac.jpg",
+            "uuid": "273734ea16f8e280",
+            "gwId": "eb0689ecbb2914fdcffopt",
+            "ip": 0
+        },
+        {
+            "name": "PIR Shed",
+            "id": "eb29412a460a068676g8cv",
+            "key": "~M0kO};;9R$d'wqL",
+            "mac": "fc:67:1f:2a:27:11",
+            "category": "pir",
+            "product_name": "PIR",
+            "product_id": "o1l76njefmksbgkk",
+            "biz_type": 0,
+            "model": "PIR-wifi-V01",
+            "sub": false,
+            "icon": "https://images.tuyaus.com/smart/icon/ay15554925906369PM9S/131d393c8aa546206ffcf603f38ceb54.png",
+            "uuid": "8390601eff14128c",
+            "gwId": "eb29412a460a068676g8cv",
+            "ip": 0
         }
     ]
 }
