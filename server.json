@@ -1,5 +1,5 @@
 {
-	"name": "TUYALED",
+	"name": "tinytuya",
 	"docs": "https://github.com/sjpbailey/udi-poly-tuya-python-master-v3/blob/master/README.md",
 	"type": "python3",
 	"executable": "TUYALED.py",
