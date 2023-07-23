@@ -1,37 +1,70 @@
 {
     "result": [
         {
-            "active_time": 1688118544,
+            "active_time": 1688678700,
             "biz_type": 0,
             "category": "pir",
-            "create_time": 1688118544,
-            "icon": "smart/icon/ay1524194438166Zg2hZ/162545442419b6b47e132.jpg",
-            "id": "eb5e5f786fffbf04b9ldxl",
+            "create_time": 1688675193,
+            "icon": "smart/icon/ay1562583874631k02Aw/490e26f4b6e3bb27fc60e8e1ebc013ac.jpg",
+            "id": "eb0689ecbb2914fdcffopt",
             "ip": "98.41.236.33",
-            "lat": "37.7200",
-            "local_key": ")pV=i/M$Xz>bFHEN",
-            "lon": "-121.4700",
-            "model": "",
-            "name": "PIR Master",
+            "lat": "37.7196",
+            "local_key": "_]P=rEGO..UA|_d]",
+            "lon": "-121.4764",
+            "model": "CT60W_CBU_NL",
+            "name": "PIR Gate",
             "online": true,
             "owner_id": "33161067",
-            "product_id": "tuadvwloutnzat2p",
-            "product_name": "PIR Sensor ",
+            "product_id": "rp9akkjbohm7xdwe",
+            "product_name": "PIR senser",
             "status": [
                 {
                     "code": "pir",
-                    "value": "pir"
+                    "value": "none"
                 },
                 {
                     "code": "battery_percentage",
-                    "value": 69
+                    "value": 100
                 }
             ],
             "sub": false,
             "time_zone": "-07:00",
             "uid": "az1610958067414WkfOO",
-            "update_time": 1688949624,
-            "uuid": "7c864f922baac602"
+            "update_time": 1690072853,
+            "uuid": "273734ea16f8e280"
+        },
+        {
+            "active_time": 1686981690,
+            "biz_type": 0,
+            "category": "pir",
+            "create_time": 1686981690,
+            "icon": "smart/icon/ay15554925906369PM9S/131d393c8aa546206ffcf603f38ceb54.png",
+            "id": "eb29412a460a068676g8cv",
+            "ip": "98.41.236.33",
+            "lat": "37.7196",
+            "local_key": "~M0kO};;9R$d'wqL",
+            "lon": "-121.4764",
+            "model": "PIR-wifi-V01",
+            "name": "PIR Shed",
+            "online": true,
+            "owner_id": "33161067",
+            "product_id": "o1l76njefmksbgkk",
+            "product_name": "PIR",
+            "status": [
+                {
+                    "code": "pir",
+                    "value": "none"
+                },
+                {
+                    "code": "battery_percentage",
+                    "value": 100
+                }
+            ],
+            "sub": false,
+            "time_zone": "-07:00",
+            "uid": "az1610958067414WkfOO",
+            "update_time": 1690067735,
+            "uuid": "8390601eff14128c"
         },
         {
             "active_time": 1688118167,
@@ -57,14 +90,47 @@
                 },
                 {
                     "code": "battery_percentage",
+                    "value": 52
+                }
+            ],
+            "sub": false,
+            "time_zone": "-07:00",
+            "uid": "az1610958067414WkfOO",
+            "update_time": 1690063838,
+            "uuid": "b2f0eab076fec4db"
+        },
+        {
+            "active_time": 1688442261,
+            "biz_type": 0,
+            "category": "mcs",
+            "create_time": 1688442261,
+            "icon": "smart/icon/ay1562583874631k02Aw/051a2210ea3db49d307a52778aabe00e.jpg",
+            "id": "eb1a6a7a7f7a5caebcgick",
+            "ip": "98.41.236.33",
+            "lat": "37.7182",
+            "local_key": "nPfNk[`]QtP}h?Ln",
+            "lon": "-121.4700",
+            "model": "AW201_CBU",
+            "name": "Door Contact Sensor",
+            "online": true,
+            "owner_id": "33161067",
+            "product_id": "5clcipazwycf176m",
+            "product_name": "Contact Sensor",
+            "status": [
+                {
+                    "code": "doorcontact_state",
+                    "value": false
+                },
+                {
+                    "code": "battery_percentage",
                     "value": 100
                 }
             ],
             "sub": false,
             "time_zone": "-07:00",
             "uid": "az1610958067414WkfOO",
-            "update_time": 1688948290,
-            "uuid": "b2f0eab076fec4db"
+            "update_time": 1690062652,
+            "uuid": "965c3d67e81e3106"
         },
         {
             "active_time": 1688117666,
@@ -90,14 +156,112 @@
                 },
                 {
                     "code": "battery_percentage",
-                    "value": 91
+                    "value": 100
                 }
             ],
             "sub": false,
             "time_zone": "-07:00",
             "uid": "az1610958067414WkfOO",
-            "update_time": 1688943035,
+            "update_time": 1690059089,
             "uuid": "3bc8f9037fec2091"
+        },
+        {
+            "active_time": 1688354425,
+            "biz_type": 0,
+            "category": "pir",
+            "create_time": 1688354425,
+            "icon": "smart/icon/ay1562583874631k02Aw/e96446128f3b4a217b9849b2459138d3.png",
+            "id": "eb6030576f0771d21aiagq",
+            "ip": "98.41.236.33",
+            "lat": "37.7183",
+            "local_key": "8gk]#qU6{O2m?0x;",
+            "lon": "-121.4700",
+            "model": "CS62W(CB3S)",
+            "name": "PIR Motion Test",
+            "online": false,
+            "owner_id": "33161067",
+            "product_id": "qxayjr5ria2pedlx",
+            "product_name": "PIR Motion Detector Alarm",
+            "status": [
+                {
+                    "code": "pir",
+                    "value": "none"
+                },
+                {
+                    "code": "battery_percentage",
+                    "value": 0
+                }
+            ],
+            "sub": false,
+            "time_zone": "-07:00",
+            "uid": "az1610958067414WkfOO",
+            "update_time": 1690001768,
+            "uuid": "09b395b25502ab61"
+        },
+        {
+            "active_time": 1690001746,
+            "biz_type": 0,
+            "category": "dj",
+            "create_time": 1687526611,
+            "icon": "smart/icon/ay1478656418970ovCZL/797a55f45199326ef538096122038f6a.png",
+            "id": "eb64341be3d433d8615eib",
+            "ip": "98.41.236.33",
+            "lat": "37.7183",
+            "local_key": "d::;)TT]hXk`N}(b",
+            "lon": "-121.4700",
+            "model": "",
+            "name": "LED Sconce 1",
+            "online": true,
+            "owner_id": "33161067",
+            "product_id": "a7vjsrgl5medf61u",
+            "product_name": "120V A19 9W SMART BULB",
+            "status": [
+                {
+                    "code": "switch_led",
+                    "value": false
+                },
+                {
+                    "code": "work_mode",
+                    "value": "scene"
+                },
+                {
+                    "code": "bright_value_v2",
+                    "value": 1000
+                },
+                {
+                    "code": "temp_value_v2",
+                    "value": 0
+                },
+                {
+                    "code": "colour_data_v2",
+                    "value": "{\"h\":0,\"s\":1000,\"v\":1000}"
+                },
+                {
+                    "code": "scene_data_v2",
+                    "value": "{\"scene_num\":1,\"scene_units\":[{\"bright\":200,\"h\":0,\"s\":0,\"temperature\":0,\"unit_change_mode\":\"static\",\"unit_gradient_duration\":13,\"unit_switch_duration\":14,\"v\":0}]}"
+                },
+                {
+                    "code": "countdown_1",
+                    "value": 0
+                },
+                {
+                    "code": "music_data",
+                    "value": ""
+                },
+                {
+                    "code": "control_data",
+                    "value": ""
+                },
+                {
+                    "code": "power_memory",
+                    "value": "AAEAAAPoA+gD6AAA"
+                }
+            ],
+            "sub": false,
+            "time_zone": "-07:00",
+            "uid": "az1610958067414WkfOO",
+            "update_time": 1690001749,
+            "uuid": "aacc48e38e621fa5"
         },
         {
             "active_time": 1687819867,
@@ -127,7 +291,7 @@
                 },
                 {
                     "code": "bright_value_v2",
-                    "value": 250
+                    "value": 1000
                 },
                 {
                     "code": "temp_value_v2",
@@ -135,11 +299,11 @@
                 },
                 {
                     "code": "colour_data_v2",
-                    "value": "{\"h\":240,\"s\":1000,\"v\":1000}"
+                    "value": "{\"h\":0,\"s\":1000,\"v\":1000}"
                 },
                 {
                     "code": "scene_data_v2",
-                    "value": "{\"scene_num\":8,\"scene_units\":[{\"bright\":0,\"h\":0,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":70,\"unit_switch_duration\":70,\"v\":1000},{\"bright\":0,\"h\":120,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":70,\"unit_switch_duration\":70,\"v\":1000},{\"bright\":0,\"h\":240,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":70,\"unit_switch_duration\":70,\"v\":1000},{\"bright\":0,\"h\":61,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":70,\"unit_switch_duration\":70,\"v\":1000},{\"bright\":0,\"h\":174,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":70,\"unit_switch_duration\":70,\"v\":1000},{\"bright\":0,\"h\":275,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":70,\"unit_switch_duration\":70,\"v\":1000}]}"
+                    "value": "{\"scene_num\":1,\"scene_units\":[{\"bright\":200,\"h\":0,\"s\":0,\"temperature\":1000,\"unit_change_mode\":\"static\",\"unit_gradient_duration\":13,\"unit_switch_duration\":14,\"v\":0}]}"
                 },
                 {
                     "code": "countdown_1",
@@ -169,7 +333,7 @@
             "sub": false,
             "time_zone": "-07:00",
             "uid": "az1610958067414WkfOO",
-            "update_time": 1688942779,
+            "update_time": 1690001666,
             "uuid": "37d4b5fb2da4dfab"
         },
         {
@@ -192,7 +356,7 @@
             "status": [
                 {
                     "code": "switch_led",
-                    "value": true
+                    "value": false
                 },
                 {
                     "code": "work_mode",
@@ -208,7 +372,7 @@
                 },
                 {
                     "code": "colour_data_v2",
-                    "value": "{\"h\":118,\"s\":45,\"v\":1000}"
+                    "value": "{\"h\":0,\"s\":1000,\"v\":1000}"
                 },
                 {
                     "code": "scene_data_v2",
@@ -242,123 +406,8 @@
             "sub": false,
             "time_zone": "-08:00",
             "uid": "az1610958067414WkfOO",
-            "update_time": 1688942527,
+            "update_time": 1690001602,
             "uuid": "8d46651d2af2bb95"
-        },
-        {
-            "active_time": 1610958245,
-            "biz_type": 0,
-            "category": "kg",
-            "create_time": 1610826905,
-            "icon": "smart/icon/ay14906729310721fNjn/1568862445415ffab0175.jpg",
-            "id": "017743508caab5f0973e",
-            "ip": "98.41.236.33",
-            "lat": "37.7183",
-            "local_key": "e779c96c964f71b2",
-            "lon": "-121.4700",
-            "model": "SS01S(\u4e0d\u5206\u8d1f\u8f7d)\u4e50\u946b",
-            "name": "Switch Office Outside Lights",
-            "online": true,
-            "owner_id": "33161067",
-            "product_id": "pigcdkf9bdubtskr",
-            "product_name": "Smart Light Switch",
-            "status": [
-                {
-                    "code": "switch_1",
-                    "value": false
-                },
-                {
-                    "code": "countdown_1",
-                    "value": 0
-                }
-            ],
-            "sub": false,
-            "time_zone": "-08:00",
-            "uid": "az1610958067414WkfOO",
-            "update_time": 1688940933,
-            "uuid": "017743508caab5f0973e"
-        },
-        {
-            "active_time": 1688442261,
-            "biz_type": 0,
-            "category": "mcs",
-            "create_time": 1688442261,
-            "icon": "smart/icon/ay1562583874631k02Aw/051a2210ea3db49d307a52778aabe00e.jpg",
-            "id": "eb1a6a7a7f7a5caebcgick",
-            "ip": "98.41.236.33",
-            "lat": "37.7182",
-            "local_key": "nPfNk[`]QtP}h?Ln",
-            "lon": "-121.4700",
-            "model": "AW201_CBU",
-            "name": "Door Contact Sensor",
-            "online": true,
-            "owner_id": "33161067",
-            "product_id": "5clcipazwycf176m",
-            "product_name": "Contact Sensor",
-            "status": [
-                {
-                    "code": "doorcontact_state",
-                    "value": false
-                },
-                {
-                    "code": "battery_percentage",
-                    "value": 100
-                }
-            ],
-            "sub": false,
-            "time_zone": "-07:00",
-            "uid": "az1610958067414WkfOO",
-            "update_time": 1688933672,
-            "uuid": "965c3d67e81e3106"
-        },
-        {
-            "active_time": 1667849030,
-            "biz_type": 0,
-            "category": "kg",
-            "create_time": 1667849030,
-            "icon": "smart/icon/bay16152549642749hEX/745307f1dbba7bd204869174cac71a91.jpg",
-            "id": "eb9f1eaef823420e19bewt",
-            "ip": "98.41.236.33",
-            "lat": "37.7183",
-            "local_key": "659ef2b2c7d3a60a",
-            "lon": "-121.4700",
-            "model": "\u5f00\u5173(\u84dd\u7259+Wi-Fi)",
-            "name": "Switch Dutch Door",
-            "online": true,
-            "owner_id": "33161067",
-            "product_id": "63mimezrlfmflhgf",
-            "product_name": "",
-            "status": [
-                {
-                    "code": "switch_1",
-                    "value": false
-                },
-                {
-                    "code": "countdown_1",
-                    "value": 0
-                },
-                {
-                    "code": "relay_status",
-                    "value": "power_off"
-                },
-                {
-                    "code": "light_mode",
-                    "value": "none"
-                },
-                {
-                    "code": "random_time",
-                    "value": ""
-                },
-                {
-                    "code": "switch_inching",
-                    "value": ""
-                }
-            ],
-            "sub": false,
-            "time_zone": "-08:00",
-            "uid": "az1610958067414WkfOO",
-            "update_time": 1688933398,
-            "uuid": "812986ca4457ba24"
         },
         {
             "active_time": 1611129340,
@@ -368,9 +417,9 @@
             "icon": "smart/icon/ay1526363067472WHq8d/b354bef20490dfd22c5a3d4c89b6269c.png",
             "id": "ebfd4f4263bb769d99zjkq",
             "ip": "98.41.236.33",
-            "lat": "37.7200",
+            "lat": "37.7196",
             "local_key": "ec0b2b581a246eab",
-            "lon": "-121.4700",
+            "lon": "-121.4764",
             "model": "SL10",
             "name": "LED Garage",
             "online": true,
@@ -396,7 +445,7 @@
                 },
                 {
                     "code": "colour_data_v2",
-                    "value": "{\"h\":0,\"s\":0,\"v\":1000}"
+                    "value": "{\"h\":118,\"s\":45,\"v\":1000}"
                 },
                 {
                     "code": "scene_data_v2",
@@ -430,164 +479,41 @@
             "sub": false,
             "time_zone": "-08:00",
             "uid": "az1610958067414WkfOO",
-            "update_time": 1688933383,
+            "update_time": 1689995676,
             "uuid": "51ff978b119a9dc2"
         },
         {
-            "active_time": 1667667757,
-            "biz_type": 0,
-            "category": "kg",
-            "create_time": 1667667757,
-            "icon": "smart/icon/ay1555569556653Lg790/158710187562e22f82bcb.jpg",
-            "id": "eb577fdd6642efcbc3g0qc",
-            "ip": "98.41.236.33",
-            "lat": "37.7183",
-            "local_key": "85861de497baa60d",
-            "lon": "-121.4700",
-            "model": "SS01S\uff08\u706b\u7ebf\u8d1f\u8f7d\u7ebf\u4e0d\u5206\u7248\u672c\uff09BK\u7248\u672c",
-            "name": "Switch Side Garage Outside ",
-            "online": true,
-            "owner_id": "33161067",
-            "product_id": "m1kegihkhoqnagqg",
-            "product_name": "SS01S Smart Light Switch1",
-            "status": [
-                {
-                    "code": "switch_1",
-                    "value": false
-                }
-            ],
-            "sub": false,
-            "time_zone": "-07:00",
-            "uid": "az1610958067414WkfOO",
-            "update_time": 1688933379,
-            "uuid": "df8dbcb4dbbf02d1"
-        },
-        {
-            "active_time": 1667790841,
-            "biz_type": 0,
-            "category": "kg",
-            "create_time": 1667790841,
-            "icon": "smart/icon/bay16152549642749hEX/745307f1dbba7bd204869174cac71a91.jpg",
-            "id": "eb7053a032f633f952bqq2",
-            "ip": "98.41.236.33",
-            "lat": "37.7183",
-            "local_key": "a792deae091dff2c",
-            "lon": "-121.4700",
-            "model": "\u5f00\u5173(\u84dd\u7259+Wi-Fi)",
-            "name": "Switch Front Door",
-            "online": true,
-            "owner_id": "33161067",
-            "product_id": "63mimezrlfmflhgf",
-            "product_name": "",
-            "status": [
-                {
-                    "code": "switch_1",
-                    "value": false
-                },
-                {
-                    "code": "countdown_1",
-                    "value": 0
-                },
-                {
-                    "code": "relay_status",
-                    "value": "power_off"
-                },
-                {
-                    "code": "light_mode",
-                    "value": "none"
-                },
-                {
-                    "code": "random_time",
-                    "value": ""
-                },
-                {
-                    "code": "switch_inching",
-                    "value": ""
-                }
-            ],
-            "sub": false,
-            "time_zone": "-08:00",
-            "uid": "az1610958067414WkfOO",
-            "update_time": 1688933375,
-            "uuid": "002f6d426c01557a"
-        },
-        {
-            "active_time": 1660708648,
-            "biz_type": 0,
-            "category": "dd",
-            "create_time": 1612504334,
-            "icon": "smart/icon/ay14906729310721fNjn/f266b748d1b92584887cde26ea9212ca.png",
-            "id": "ebe097c0407da32084kvtr",
-            "ip": "98.41.236.33",
-            "lat": "37.7200",
-            "local_key": "22ad5946c44356a4",
-            "lon": "-121.4700",
-            "model": "\u706f\u5e26\u63a7\u5236\u5668\uff08BK\uff09",
-            "name": "LED Strip Cabinets ",
-            "online": true,
-            "owner_id": "33161067",
-            "product_id": "e8naaq4xcsfvuunf",
-            "product_name": "LED Strip Lights",
-            "status": [
-                {
-                    "code": "switch_led",
-                    "value": false
-                },
-                {
-                    "code": "work_mode",
-                    "value": "colour"
-                },
-                {
-                    "code": "colour_data",
-                    "value": "{\"h\":272,\"s\":1000,\"v\":1000}"
-                },
-                {
-                    "code": "scene_data",
-                    "value": "{\"scene_num\":210,\"scene_units\":[{\"bright\":0,\"h\":16,\"s\":0,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":100,\"unit_switch_duration\":100,\"v\":1000},{\"bright\":0,\"h\":219,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":100,\"unit_switch_duration\":100,\"v\":1000},{\"bright\":0,\"h\":21,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":100,\"unit_switch_duration\":100,\"v\":1000},{\"bright\":0,\"h\":60,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":100,\"unit_switch_duration\":100,\"v\":1000},{\"bright\":0,\"h\":297,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":100,\"unit_switch_duration\":100,\"v\":1000},{\"bright\":0,\"h\":125,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":100,\"unit_switch_duration\":100,\"v\":1000},{\"bright\":0,\"h\":3,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":100,\"unit_switch_duration\":100,\"v\":1000},{\"bright\":0,\"h\":333,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":100,\"unit_switch_duration\":100,\"v\":1000}]}"
-                },
-                {
-                    "code": "countdown",
-                    "value": 0
-                }
-            ],
-            "sub": false,
-            "time_zone": "-07:00",
-            "uid": "az1610958067414WkfOO",
-            "update_time": 1688933366,
-            "uuid": "c2854608edea94d7"
-        },
-        {
-            "active_time": 1688354425,
+            "active_time": 1688118544,
             "biz_type": 0,
             "category": "pir",
-            "create_time": 1688354425,
-            "icon": "smart/icon/ay1562583874631k02Aw/e96446128f3b4a217b9849b2459138d3.png",
-            "id": "eb6030576f0771d21aiagq",
+            "create_time": 1688118544,
+            "icon": "smart/icon/ay1524194438166Zg2hZ/162545442419b6b47e132.jpg",
+            "id": "eb5e5f786fffbf04b9ldxl",
             "ip": "98.41.236.33",
-            "lat": "37.7200",
-            "local_key": "8gk]#qU6{O2m?0x;",
-            "lon": "-121.4700",
-            "model": "CS62W(CB3S)",
-            "name": "PIR Motion Test",
-            "online": true,
+            "lat": "37.7196",
+            "local_key": ")pV=i/M$Xz>bFHEN",
+            "lon": "-121.4764",
+            "model": "",
+            "name": "PIR Master",
+            "online": false,
             "owner_id": "33161067",
-            "product_id": "qxayjr5ria2pedlx",
-            "product_name": "PIR Motion Detector Alarm",
+            "product_id": "tuadvwloutnzat2p",
+            "product_name": "PIR Sensor ",
             "status": [
                 {
                     "code": "pir",
-                    "value": "none"
+                    "value": "pir"
                 },
                 {
                     "code": "battery_percentage",
-                    "value": 0
+                    "value": 59
                 }
             ],
             "sub": false,
             "time_zone": "-07:00",
             "uid": "az1610958067414WkfOO",
-            "update_time": 1688933359,
-            "uuid": "09b395b25502ab61"
+            "update_time": 1689983279,
+            "uuid": "7c864f922baac602"
         },
         {
             "active_time": 1688441970,
@@ -627,98 +553,74 @@
             "sub": true,
             "time_zone": "-07:00",
             "uid": "az1610958067414WkfOO",
-            "update_time": 1688933352,
+            "update_time": 1689324498,
             "uuid": "86f3cd89ddf513e1"
         },
         {
-            "active_time": 1687891468,
-            "biz_type": 0,
-            "category": "sd",
-            "create_time": 1687891468,
-            "icon": "smart/icon/ay1534681176370JSCKe/6da3d47ccf759a6261579440f561042f.jpg",
-            "id": "eb5add4f3bbf86a94bs3o6",
-            "ip": "98.41.236.33",
-            "lat": "37.7183",
-            "local_key": "?7.Flw'W@~zI3HuR",
-            "lon": "-121.4700",
-            "model": "BR151R",
-            "name": "Sweeping robot",
-            "online": true,
-            "owner_id": "33161067",
-            "product_id": "ela0pxryflaldubr",
-            "product_name": "Sweeping robot",
-            "status": [
-                {
-                    "code": "power_go",
-                    "value": false
-                },
-                {
-                    "code": "mode",
-                    "value": "chargego"
-                },
-                {
-                    "code": "direction_control",
-                    "value": "turn_right"
-                },
-                {
-                    "code": "status",
-                    "value": "charge_done"
-                },
-                {
-                    "code": "electricity_left",
-                    "value": 100
-                },
-                {
-                    "code": "suction",
-                    "value": "normal"
-                },
-                {
-                    "code": "clean_time",
-                    "value": 0
-                },
-                {
-                    "code": "fault",
-                    "value": 0
-                },
-                {
-                    "code": "cistern",
-                    "value": "low"
-                }
-            ],
-            "sub": false,
-            "time_zone": "-07:00",
-            "uid": "az1610958067414WkfOO",
-            "update_time": 1688933297,
-            "uuid": "853011974bc304be"
-        },
-        {
-            "active_time": 1667791431,
+            "active_time": 1610958245,
             "biz_type": 0,
             "category": "kg",
-            "create_time": 1667790099,
-            "icon": "smart/icon/ay1555569556653Lg790/158710187562e22f82bcb.jpg",
-            "id": "eb7ac0fbe689ca95f7dxxk",
+            "create_time": 1610826905,
+            "icon": "smart/icon/ay14906729310721fNjn/1568862445415ffab0175.jpg",
+            "id": "017743508caab5f0973e",
             "ip": "98.41.236.33",
             "lat": "37.7183",
-            "local_key": "449ebc60812eb8bb",
+            "local_key": "e779c96c964f71b2",
             "lon": "-121.4700",
-            "model": "SS01S\uff08\u706b\u7ebf\u8d1f\u8f7d\u7ebf\u4e0d\u5206\u7248\u672c\uff09BK\u7248\u672c",
-            "name": "Switch Garage Overhead ",
+            "model": "SS01S(\u4e0d\u5206\u8d1f\u8f7d)\u4e50\u946b",
+            "name": "Switch Office Outside Lights",
             "online": true,
             "owner_id": "33161067",
-            "product_id": "m1kegihkhoqnagqg",
-            "product_name": "SS01S Smart Light Switch1",
+            "product_id": "pigcdkf9bdubtskr",
+            "product_name": "Smart Light Switch",
             "status": [
                 {
                     "code": "switch_1",
                     "value": false
+                },
+                {
+                    "code": "countdown_1",
+                    "value": 0
                 }
             ],
             "sub": false,
             "time_zone": "-08:00",
             "uid": "az1610958067414WkfOO",
-            "update_time": 1688933295,
-            "uuid": "536e96f6e690d31f"
+            "update_time": 1689252878,
+            "uuid": "017743508caab5f0973e"
+        },
+        {
+            "active_time": 1667663221,
+            "biz_type": 0,
+            "category": "kg",
+            "create_time": 1667663221,
+            "icon": "smart/icon/ay14906729310721fNjn/1568862445415ffab0175.jpg",
+            "id": "017743508caab5f29984",
+            "ip": "98.41.236.33",
+            "lat": "37.7183",
+            "local_key": "be9d5b1387e6f231",
+            "lon": "-121.4700",
+            "model": "SS01S(\u4e0d\u5206\u8d1f\u8f7d)\u4e50\u946b",
+            "name": "Switch Dining Pool Outside ",
+            "online": true,
+            "owner_id": "33161067",
+            "product_id": "pigcdkf9bdubtskr",
+            "product_name": "Smart Light Switch",
+            "status": [
+                {
+                    "code": "switch_1",
+                    "value": false
+                },
+                {
+                    "code": "countdown_1",
+                    "value": 0
+                }
+            ],
+            "sub": false,
+            "time_zone": "-08:00",
+            "uid": "az1610958067414WkfOO",
+            "update_time": 1689246796,
+            "uuid": "017743508caab5f29984"
         },
         {
             "active_time": 1656839758,
@@ -750,49 +652,41 @@
             "sub": false,
             "time_zone": "-08:00",
             "uid": "az1610958067414WkfOO",
-            "update_time": 1688933282,
+            "update_time": 1689246783,
             "uuid": "017743508caab5f385a7"
         },
         {
-            "active_time": 1687206036,
+            "active_time": 1667065898,
             "biz_type": 0,
-            "category": "tgq",
-            "create_time": 1687206036,
-            "icon": "smart/icon/ay14906729310721fNjn/b084266157bb981ea7931f14a425c9f6.jpg",
-            "id": "804076608caab5d8ff58",
+            "category": "kg",
+            "create_time": 1667064851,
+            "icon": "smart/icon/ay14906729310721fNjn/1568862445415ffab0175.jpg",
+            "id": "017743508caab5f126b0",
             "ip": "98.41.236.33",
             "lat": "37.7200",
-            "local_key": "B3n/7K_yHu4H~UIl",
+            "local_key": "17a1e4c963773637",
             "lon": "-121.4700",
-            "model": "DS01C(\u91cf\u4ea7\uff09",
-            "name": "Office Smart Dimmer Switch",
+            "model": "SS01S(\u4e0d\u5206\u8d1f\u8f7d)\u4e50\u946b",
+            "name": "Switch Master Outside",
             "online": true,
             "owner_id": "33161067",
-            "product_id": "r3fg1ytyd4sd67ga",
-            "product_name": "DS01C Smart dimmer switch",
+            "product_id": "pigcdkf9bdubtskr",
+            "product_name": "Smart Light Switch",
             "status": [
                 {
-                    "code": "switch_led_1",
+                    "code": "switch_1",
                     "value": false
                 },
                 {
-                    "code": "bright_value_1",
-                    "value": 150
-                },
-                {
-                    "code": "brightness_min_1",
-                    "value": 148
-                },
-                {
-                    "code": "led_type_1",
-                    "value": "halogen"
+                    "code": "countdown_1",
+                    "value": 0
                 }
             ],
             "sub": false,
             "time_zone": "-08:00",
             "uid": "az1610958067414WkfOO",
-            "update_time": 1688933281,
-            "uuid": "804076608caab5d8ff58"
+            "update_time": 1689246783,
+            "uuid": "017743508caab5f126b0"
         },
         {
             "active_time": 1687404896,
@@ -852,59 +746,67 @@
             "sub": false,
             "time_zone": "-08:00",
             "uid": "az1610958067414WkfOO",
-            "update_time": 1688933281,
+            "update_time": 1689246780,
             "uuid": "68635610e8db84fff7ea"
         },
         {
-            "active_time": 1667065898,
+            "active_time": 1687206036,
             "biz_type": 0,
-            "category": "kg",
-            "create_time": 1667064851,
-            "icon": "smart/icon/ay14906729310721fNjn/1568862445415ffab0175.jpg",
-            "id": "017743508caab5f126b0",
+            "category": "tgq",
+            "create_time": 1687206036,
+            "icon": "smart/icon/ay14906729310721fNjn/b084266157bb981ea7931f14a425c9f6.jpg",
+            "id": "804076608caab5d8ff58",
             "ip": "98.41.236.33",
             "lat": "37.7200",
-            "local_key": "17a1e4c963773637",
+            "local_key": "B3n/7K_yHu4H~UIl",
             "lon": "-121.4700",
-            "model": "SS01S(\u4e0d\u5206\u8d1f\u8f7d)\u4e50\u946b",
-            "name": "Switch Master Outside",
+            "model": "DS01C(\u91cf\u4ea7\uff09",
+            "name": "Office Smart Dimmer Switch",
             "online": true,
             "owner_id": "33161067",
-            "product_id": "pigcdkf9bdubtskr",
-            "product_name": "Smart Light Switch",
+            "product_id": "r3fg1ytyd4sd67ga",
+            "product_name": "DS01C Smart dimmer switch",
             "status": [
                 {
-                    "code": "switch_1",
+                    "code": "switch_led_1",
                     "value": false
                 },
                 {
-                    "code": "countdown_1",
-                    "value": 0
+                    "code": "bright_value_1",
+                    "value": 861
+                },
+                {
+                    "code": "brightness_min_1",
+                    "value": 148
+                },
+                {
+                    "code": "led_type_1",
+                    "value": "incandescent"
                 }
             ],
             "sub": false,
             "time_zone": "-08:00",
             "uid": "az1610958067414WkfOO",
-            "update_time": 1688933279,
-            "uuid": "017743508caab5f126b0"
+            "update_time": 1689246773,
+            "uuid": "804076608caab5d8ff58"
         },
         {
-            "active_time": 1667663221,
+            "active_time": 1667790841,
             "biz_type": 0,
             "category": "kg",
-            "create_time": 1667663221,
-            "icon": "smart/icon/ay14906729310721fNjn/1568862445415ffab0175.jpg",
-            "id": "017743508caab5f29984",
+            "create_time": 1667790841,
+            "icon": "smart/icon/bay16152549642749hEX/745307f1dbba7bd204869174cac71a91.jpg",
+            "id": "eb7053a032f633f952bqq2",
             "ip": "98.41.236.33",
             "lat": "37.7183",
-            "local_key": "be9d5b1387e6f231",
+            "local_key": "a792deae091dff2c",
             "lon": "-121.4700",
-            "model": "SS01S(\u4e0d\u5206\u8d1f\u8f7d)\u4e50\u946b",
-            "name": "Switch Dining Pool Outside ",
+            "model": "SS01",
+            "name": "Switch Front Door",
             "online": true,
             "owner_id": "33161067",
-            "product_id": "pigcdkf9bdubtskr",
-            "product_name": "Smart Light Switch",
+            "product_id": "63mimezrlfmflhgf",
+            "product_name": "3 Way Smart Switch",
             "status": [
                 {
                     "code": "switch_1",
@@ -913,31 +815,96 @@
                 {
                     "code": "countdown_1",
                     "value": 0
+                },
+                {
+                    "code": "relay_status",
+                    "value": "power_off"
+                },
+                {
+                    "code": "light_mode",
+                    "value": "none"
+                },
+                {
+                    "code": "random_time",
+                    "value": ""
+                },
+                {
+                    "code": "switch_inching",
+                    "value": ""
                 }
             ],
             "sub": false,
             "time_zone": "-08:00",
             "uid": "az1610958067414WkfOO",
-            "update_time": 1688933279,
-            "uuid": "017743508caab5f29984"
+            "update_time": 1689246768,
+            "uuid": "002f6d426c01557a"
         },
         {
-            "active_time": 1687526611,
+            "active_time": 1667849030,
             "biz_type": 0,
-            "category": "dj",
-            "create_time": 1687526611,
-            "icon": "smart/icon/ay1478656418970ovCZL/797a55f45199326ef538096122038f6a.png",
-            "id": "eb64341be3d433d8615eib",
+            "category": "kg",
+            "create_time": 1667849030,
+            "icon": "smart/icon/bay16152549642749hEX/745307f1dbba7bd204869174cac71a91.jpg",
+            "id": "eb9f1eaef823420e19bewt",
             "ip": "98.41.236.33",
-            "lat": "37.7200",
-            "local_key": "T>.3PH+{p+P4g5+1",
+            "lat": "37.7183",
+            "local_key": "659ef2b2c7d3a60a",
             "lon": "-121.4700",
-            "model": "",
-            "name": "LED Sconce 1",
+            "model": "SS01",
+            "name": "Switch Dutch Door",
             "online": true,
             "owner_id": "33161067",
-            "product_id": "a7vjsrgl5medf61u",
-            "product_name": "120V A19 9W SMART BULB",
+            "product_id": "63mimezrlfmflhgf",
+            "product_name": "3 Way Smart Switch",
+            "status": [
+                {
+                    "code": "switch_1",
+                    "value": false
+                },
+                {
+                    "code": "countdown_1",
+                    "value": 0
+                },
+                {
+                    "code": "relay_status",
+                    "value": "power_off"
+                },
+                {
+                    "code": "light_mode",
+                    "value": "none"
+                },
+                {
+                    "code": "random_time",
+                    "value": ""
+                },
+                {
+                    "code": "switch_inching",
+                    "value": ""
+                }
+            ],
+            "sub": false,
+            "time_zone": "-08:00",
+            "uid": "az1610958067414WkfOO",
+            "update_time": 1689246767,
+            "uuid": "812986ca4457ba24"
+        },
+        {
+            "active_time": 1660708648,
+            "biz_type": 0,
+            "category": "dd",
+            "create_time": 1612504334,
+            "icon": "smart/icon/ay14906729310721fNjn/f266b748d1b92584887cde26ea9212ca.png",
+            "id": "ebe097c0407da32084kvtr",
+            "ip": "98.41.236.33",
+            "lat": "37.7183",
+            "local_key": "22ad5946c44356a4",
+            "lon": "-121.4700",
+            "model": "\u706f\u5e26\u63a7\u5236\u5668\uff08BK\uff09",
+            "name": "LED Strip Cabinets ",
+            "online": true,
+            "owner_id": "33161067",
+            "product_id": "e8naaq4xcsfvuunf",
+            "product_name": "LED Strip Lights",
             "status": [
                 {
                     "code": "switch_led",
@@ -945,115 +912,148 @@
                 },
                 {
                     "code": "work_mode",
-                    "value": "scene"
+                    "value": "colour"
                 },
                 {
-                    "code": "bright_value_v2",
-                    "value": 250
+                    "code": "colour_data",
+                    "value": "{\"h\":0,\"s\":1000,\"v\":1000}"
                 },
                 {
-                    "code": "temp_value_v2",
+                    "code": "scene_data",
+                    "value": "{\"scene_num\":210,\"scene_units\":[{\"bright\":0,\"h\":16,\"s\":0,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":100,\"unit_switch_duration\":100,\"v\":1000},{\"bright\":0,\"h\":219,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":100,\"unit_switch_duration\":100,\"v\":1000},{\"bright\":0,\"h\":21,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":100,\"unit_switch_duration\":100,\"v\":1000},{\"bright\":0,\"h\":60,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":100,\"unit_switch_duration\":100,\"v\":1000},{\"bright\":0,\"h\":297,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":100,\"unit_switch_duration\":100,\"v\":1000},{\"bright\":0,\"h\":125,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":100,\"unit_switch_duration\":100,\"v\":1000},{\"bright\":0,\"h\":3,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":100,\"unit_switch_duration\":100,\"v\":1000},{\"bright\":0,\"h\":333,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":100,\"unit_switch_duration\":100,\"v\":1000}]}"
+                },
+                {
+                    "code": "countdown",
+                    "value": 0
+                }
+            ],
+            "sub": false,
+            "time_zone": "-07:00",
+            "uid": "az1610958067414WkfOO",
+            "update_time": 1689246766,
+            "uuid": "c2854608edea94d7"
+        },
+        {
+            "active_time": 1667667757,
+            "biz_type": 0,
+            "category": "kg",
+            "create_time": 1667667757,
+            "icon": "smart/icon/ay1555569556653Lg790/158710187562e22f82bcb.jpg",
+            "id": "eb577fdd6642efcbc3g0qc",
+            "ip": "98.41.236.33",
+            "lat": "37.7183",
+            "local_key": "85861de497baa60d",
+            "lon": "-121.4700",
+            "model": "SS01S\uff08\u706b\u7ebf\u8d1f\u8f7d\u7ebf\u4e0d\u5206\u7248\u672c\uff09BK\u7248\u672c",
+            "name": "Switch Side Garage Outside ",
+            "online": true,
+            "owner_id": "33161067",
+            "product_id": "m1kegihkhoqnagqg",
+            "product_name": "SS01S Smart Light Switch1",
+            "status": [
+                {
+                    "code": "switch_1",
+                    "value": false
+                }
+            ],
+            "sub": false,
+            "time_zone": "-07:00",
+            "uid": "az1610958067414WkfOO",
+            "update_time": 1689246766,
+            "uuid": "df8dbcb4dbbf02d1"
+        },
+        {
+            "active_time": 1667791431,
+            "biz_type": 0,
+            "category": "kg",
+            "create_time": 1667790099,
+            "icon": "smart/icon/ay1555569556653Lg790/158710187562e22f82bcb.jpg",
+            "id": "eb7ac0fbe689ca95f7dxxk",
+            "ip": "98.41.236.33",
+            "lat": "37.7183",
+            "local_key": "449ebc60812eb8bb",
+            "lon": "-121.4700",
+            "model": "SS01S\uff08\u706b\u7ebf\u8d1f\u8f7d\u7ebf\u4e0d\u5206\u7248\u672c\uff09BK\u7248\u672c",
+            "name": "Switch Garage Overhead ",
+            "online": true,
+            "owner_id": "33161067",
+            "product_id": "m1kegihkhoqnagqg",
+            "product_name": "SS01S Smart Light Switch1",
+            "status": [
+                {
+                    "code": "switch_1",
+                    "value": false
+                }
+            ],
+            "sub": false,
+            "time_zone": "-08:00",
+            "uid": "az1610958067414WkfOO",
+            "update_time": 1689246765,
+            "uuid": "536e96f6e690d31f"
+        },
+        {
+            "active_time": 1687891468,
+            "biz_type": 0,
+            "category": "sd",
+            "create_time": 1687891468,
+            "icon": "smart/icon/ay1534681176370JSCKe/6da3d47ccf759a6261579440f561042f.jpg",
+            "id": "eb5add4f3bbf86a94bs3o6",
+            "ip": "98.41.236.33",
+            "lat": "37.7183",
+            "local_key": "?7.Flw'W@~zI3HuR",
+            "lon": "-121.4700",
+            "model": "BR151R",
+            "name": "Sweeping robot",
+            "online": true,
+            "owner_id": "33161067",
+            "product_id": "ela0pxryflaldubr",
+            "product_name": "Sweeping robot",
+            "status": [
+                {
+                    "code": "power_go",
+                    "value": false
+                },
+                {
+                    "code": "mode",
+                    "value": "chargego"
+                },
+                {
+                    "code": "direction_control",
+                    "value": "turn_right"
+                },
+                {
+                    "code": "status",
+                    "value": "charge_done"
+                },
+                {
+                    "code": "electricity_left",
+                    "value": 100
+                },
+                {
+                    "code": "suction",
+                    "value": "normal"
+                },
+                {
+                    "code": "clean_time",
                     "value": 0
                 },
                 {
-                    "code": "colour_data_v2",
-                    "value": "{\"h\":0,\"s\":0,\"v\":0}"
-                },
-                {
-                    "code": "scene_data_v2",
-                    "value": "{\"scene_num\":8,\"scene_units\":[{\"bright\":0,\"h\":0,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":70,\"unit_switch_duration\":70,\"v\":1000},{\"bright\":0,\"h\":120,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":70,\"unit_switch_duration\":70,\"v\":1000},{\"bright\":0,\"h\":240,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":70,\"unit_switch_duration\":70,\"v\":1000},{\"bright\":0,\"h\":61,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":70,\"unit_switch_duration\":70,\"v\":1000},{\"bright\":0,\"h\":174,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":70,\"unit_switch_duration\":70,\"v\":1000},{\"bright\":0,\"h\":275,\"s\":1000,\"temperature\":0,\"unit_change_mode\":\"gradient\",\"unit_gradient_duration\":70,\"unit_switch_duration\":70,\"v\":1000}]}"
-                },
-                {
-                    "code": "countdown_1",
+                    "code": "fault",
                     "value": 0
                 },
                 {
-                    "code": "music_data",
-                    "value": ""
-                },
-                {
-                    "code": "control_data",
-                    "value": ""
-                },
-                {
-                    "code": "power_memory",
-                    "value": "AAEAAAPoA+gD6AAA"
+                    "code": "cistern",
+                    "value": "low"
                 }
             ],
             "sub": false,
             "time_zone": "-07:00",
             "uid": "az1610958067414WkfOO",
-            "update_time": 1688933277,
-            "uuid": "aacc48e38e621fa5"
-        },
-        {
-            "active_time": 1688678700,
-            "biz_type": 0,
-            "category": "pir",
-            "create_time": 1688675193,
-            "icon": "smart/icon/ay1562583874631k02Aw/490e26f4b6e3bb27fc60e8e1ebc013ac.jpg",
-            "id": "eb0689ecbb2914fdcffopt",
-            "ip": "98.41.236.33",
-            "lat": "37.7200",
-            "local_key": "_]P=rEGO..UA|_d]",
-            "lon": "-121.4700",
-            "model": "CT60W_CBU_NL",
-            "name": "PIR Gate",
-            "online": true,
-            "owner_id": "33161067",
-            "product_id": "rp9akkjbohm7xdwe",
-            "product_name": "PIR senser",
-            "status": [
-                {
-                    "code": "pir",
-                    "value": "none"
-                },
-                {
-                    "code": "battery_percentage",
-                    "value": 100
-                }
-            ],
-            "sub": false,
-            "time_zone": "-07:00",
-            "uid": "az1610958067414WkfOO",
-            "update_time": 1688932302,
-            "uuid": "273734ea16f8e280"
-        },
-        {
-            "active_time": 1686981690,
-            "biz_type": 0,
-            "category": "pir",
-            "create_time": 1686981690,
-            "icon": "smart/icon/ay15554925906369PM9S/131d393c8aa546206ffcf603f38ceb54.png",
-            "id": "eb29412a460a068676g8cv",
-            "ip": "98.41.236.33",
-            "lat": "37.7200",
-            "local_key": "~M0kO};;9R$d'wqL",
-            "lon": "-121.4700",
-            "model": "PIR-wifi-V01",
-            "name": "PIR Shed",
-            "online": true,
-            "owner_id": "33161067",
-            "product_id": "o1l76njefmksbgkk",
-            "product_name": "PIR",
-            "status": [
-                {
-                    "code": "pir",
-                    "value": "none"
-                },
-                {
-                    "code": "battery_percentage",
-                    "value": 100
-                }
-            ],
-            "sub": false,
-            "time_zone": "-07:00",
-            "uid": "az1610958067414WkfOO",
-            "update_time": 1688928508,
-            "uuid": "8390601eff14128c"
+            "update_time": 1689246765,
+            "uuid": "853011974bc304be"
         }
     ],
     "success": true,
-    "t": 1688949643853,
-    "tid": "66f27e9f1eba11ee8c70fe98ebe72f12"
+    "t": 1690075267592,
+    "tid": "330cfcd728f711ee804ade073cb82c5d"
 }
